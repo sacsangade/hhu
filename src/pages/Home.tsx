@@ -105,7 +105,7 @@ function Home() {
           <p className="text1 mt-12 dark:text-white">
             We believe we can make a difference.
           </p>
-          <div className="w-full flex items-center justify-evenly gap-8 mt-20 dark:text-white">
+          <div className="w-full flex flex-col sm:flex-row items-center justify-evenly gap-8 mt-20 dark:text-white">
             <div className="flex flex-col items-center">
               <svg width="57" height="50" viewBox="0 0 57 49" fill="none" xmlns="http://www.w3.org/2000/svg" className="stroke-black dark:stroke-white">
                 <path d="M43.25 11.8571C43.25 10.4736 42.9773 9.10355 42.448 7.82528C41.9187 6.54704 41.1425 5.38558 40.1642 4.40724C39.1858 3.42893 38.0244 2.65287 36.7461 2.12339C35.4679 1.59391 34.0978 1.32141 32.7143 1.32141H11.6429C9.43158 1.32141 7.2764 2.01715 5.4825 3.31009C3.68865 4.60308 2.34707 6.42765 1.64781 8.52544C0.948542 10.6232 0.927054 12.8879 1.58638 14.9985C2.24571 17.1092 3.55244 18.959 5.32143 20.2857V43.4643C5.32143 44.5819 5.76545 45.654 6.55575 46.4442C7.3461 47.2344 8.418 47.6786 9.53572 47.6786H34.8214C35.9391 47.6786 37.011 47.2344 37.8014 46.4442C38.5917 45.654 39.0357 44.5819 39.0357 43.4643V20.2857C40.3467 19.3066 41.4105 18.0346 42.1421 16.5711C42.8741 15.1076 43.2534 13.4933 43.25 11.8571Z" strokeLinecap="round" strokeLinejoin="round"/>
