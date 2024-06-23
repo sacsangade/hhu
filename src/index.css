@@ -55,6 +55,7 @@ h3 {
 {
   width: 20px;
   height:20px;
+  position:relative;
 }
 .menu-btn:before
 {
@@ -62,6 +63,8 @@ h3 {
   width:20px;
   height:2px;
   background:#FFF;
+  position:absolute;
+  top:0px;
 }
 .menu-btn:after
 {
@@ -69,6 +72,8 @@ h3 {
   width:20px;
   height:2px;
   background:#FFF;
+   position:absolute;
+  bottom:0px;
 }
 .home .section1 {
   height: calc(100vh);
