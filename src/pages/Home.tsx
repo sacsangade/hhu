@@ -152,7 +152,7 @@ function Home() {
               </a>
             </div>
           </div>
-          <div className="flex-1 p-8 rounded-xl z-30 bg-white dark:bg-black">
+          <div className="flex-1 p-8 rounded-xl z-30 bg-white dark:bg-black text-center sm:text-left">
             <div className="flex flex-col gap-4 md:gap-0 md:grid sm:grid-cols-2 sm:py-4 font-['Roboto-thin'] stroke-black dark:stroke-white">
               <div className="flex items-center gap-8">
                 <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
