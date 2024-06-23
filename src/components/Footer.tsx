@@ -1,12 +1,12 @@
 function Footer() {
   return (
     <footer className='w-full px-5 md:px-20 dark:bg-black dark:text-white'>
-      <div className="w-full max-w-screen-2xl h-44 py-10 sm:py-auto mx-auto flex flex-col sm:flex-row items-center justify-between">
+      <div className="w-full max-w-screen-2xl h-44 py-10 sm:py-auto mx-auto flex flex-col sm:flex-row  gap-8 sm:gap-0 items-center justify-between">
         <div className="">
           <h3>
             HHU @ 2024
           </h3>
-          <p className="text2 font-['Roboto-thin'] mt-6 dark:text-[#909090]">
+          <p className="text2 font-['Roboto-thin'] mt-2 sm:mt-6 dark:text-[#909090]">
             Privacy Policy
           </p>
         </div>
