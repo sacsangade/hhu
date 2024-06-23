@@ -320,7 +320,7 @@ function Home() {
             </div>
           </div>
           <div className='w-full md:w-2/5'>
-            <h2 className="font-bold">Contact Us</h2>
+            <h2 className="font-bold py-8 sm:py-0">Contact Us</h2>
             <div className="mt-12">
               <label className="text2 font-['Roboto-thin'] dark:text-[#909090]">Name</label>
               <input className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" />
