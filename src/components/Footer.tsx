@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className='w-full px-5 md:px-20 dark:bg-black dark:text-white'>
       <div className="w-full max-w-screen-2xl h-auto sm:h-44 py-10 sm:py-auto mx-auto flex flex-col sm:flex-row  gap-8 sm:gap-0 items-center justify-between">
-        <div className="">
+        <div className="text-center sm:text-left">
           <h3>
             HHU @ 2024
           </h3>
