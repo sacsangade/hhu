@@ -98,3 +98,9 @@ h3 {
 .swiper-pagination-bullet-active {
   background-color: white !important;
 }
+
+@media (min-width: 640px) {
+  .home .section1 {
+    height:600px;
+  }
+}
