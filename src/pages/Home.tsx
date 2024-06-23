@@ -133,7 +133,7 @@ function Home() {
           </div>
         </div>
 
-        <div id='about-us' className="relative w-full py-8 px-20 flex items-center gap-20 total_donation">
+        <div id='about-us' className="hidden relative w-full py-8 px-20 flex items-center gap-20 total_donation">
           <div className="absolute top-0 right-0">
             <img src="./img/home_section2_effect.png" alt="effect2" className="w-3/5 float-right -mt-20 hidden dark:block" />
             <img src="./img/home_section2_effect_light.png" alt="effect2" className="w-3/5 float-right -mt-20 block dark:hidden" />
@@ -209,7 +209,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="w-full py-20 flex items-center gap-20">
+        <div className="hidden w-full py-20 flex items-center gap-20">
           <div className="w-2/5 p-8">
             <img src="./img/home_section2_effect2.png" alt="effect2" className="w-full hidden dark:block" />
             <img src="./img/home_section2_effect2_light.png" alt="effect2" className="w-full float-right -mt-6 block dark:hidden" />
@@ -234,7 +234,7 @@ function Home() {
           </div>
         </div>
 
-        <div id='projects' className="w-full py-20 gap-20">
+        <div id='projects' className="hidden w-full py-20 gap-20">
           <h2 className="w-full text-center">Projects</h2>
           <h3 className="w-full text-center mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Subsidiary Charity’s Managed by the Heaven Help Us Foundation
@@ -262,7 +262,7 @@ function Home() {
           </div>
         </div>
 
-        <div id='upcoming' className="w-full py-20 gap-20">
+        <div id='upcoming' className="hidden w-full py-20 gap-20">
           <h2 className="w-full text-center">Upcoming Events</h2>
           <h3 className="w-full text-center mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Join Upcoming Events and Webinars
