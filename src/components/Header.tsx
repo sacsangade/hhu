@@ -39,7 +39,7 @@ function Header() {
         <a href='/#upcoming' className="text2 cursor-pointer">Upcoming</a>
         <a href='/#contact' className="text2 cursor-pointer">Contact</a>
       </div>
-      <div className="flex-1 flex items-center justify-end gap-4 md:gap-8">
+      <div className="flex-1 flex items-center justify-end gap-2 md:gap-8">
         <button onClick={handleCheckout} className="h-14 px-6 text2 rounded-xl text-white dark:text-black bg-black dark:bg-white">
           Donation
         </button>
