@@ -40,7 +40,7 @@ function Header() {
         <a href='/#contact' className="text2 cursor-pointer">Contact</a>
       </div>
       <div className="flex-1 flex items-center justify-end gap-2 md:gap-8">
-        <button onClick={handleCheckout} className="h-14 px-6 text2 rounded-xl text-white dark:text-black bg-black dark:bg-white">
+        <button onClick={handleCheckout} className="h-14 px-6 text3 md:text2 rounded-xl text-white dark:text-black bg-black dark:bg-white">
           Donation
         </button>
         <button onClick={changeTheme} className="h-14 px-4 rounded-xl font-medium bg-black dark:bg-white stroke-white dark:stroke-black">
