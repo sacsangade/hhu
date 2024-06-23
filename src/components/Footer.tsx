@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className='w-full px-20 dark:bg-black dark:text-white'>
+    <footer className='w-full px-5 md:px-20 dark:bg-black dark:text-white'>
       <div className="w-full max-w-screen-2xl h-44 mx-auto flex flex-col sm:flex-row items-center justify-between">
         <div className="">
           <h3>
