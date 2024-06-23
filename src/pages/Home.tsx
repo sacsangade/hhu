@@ -78,7 +78,7 @@ function Home() {
   }
 
   return (
-    <div className="hidden home bg-white text-black dark:bg-black dark:text-white">
+    <div className="home bg-white text-black dark:bg-black dark:text-white">
       <section className="relative section1 flex items-center justify-center">
         <div className="flex flex-col items-center">
           <h1 className="font-bold text-center dark:text-white">All Is Grace.</h1>
@@ -94,7 +94,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="section2 w-full max-w-screen-2xl px-8 mx-auto py-16">
+      <section className="hidden section2  w-full max-w-screen-2xl px-8 mx-auto py-16">
         <div className="flex flex-col items-center text-center py-32">
           <h3 className="max-w-2xl">
             <span className="font-medium ml-2 dark:text-white">21,450</span>
