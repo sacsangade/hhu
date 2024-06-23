@@ -30,11 +30,11 @@ function Header() {
 
   return (
     <header className='fixed top-0 left-0 w-full h-28 flex justify-between items-center px-5 lg:px-20 z-50 bg-white dark:bg-black bg-opacity-60 dark:bg-opacity-60'>
-      <div className='flex-1'>
+      <div className='flex-1 flex gap-2 md:block'>
       <a href='/'>
         <h3 className='font-bold dark:text-white'>HHU</h3>
       </a>
-        <div className="menu-btn">s</div>
+        <div className="menu-btn"></div>
         </div>
       <div className="hidden md:flex items-center gap-16 dark:text-white">
         <a href='/#about-us' className="text2 cursor-pointer">About Us</a>
