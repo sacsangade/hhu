@@ -199,7 +199,7 @@ function Home() {
             <div className="w-full h-2 mt-8 rounded-full bg-[#D9D9D9] dark:bg-white">
               <div className="w-2/3 h-2 rounded-full bg-[#FF3F4F]" />
             </div>
-            <div className="flex justify-between mt-8">
+            <div className="flex flex-col sm:flex-row gap-2 sm:gap-0 justify-between mt-8">
               <p className="text1">Collection - $75k</p>
               <p className="text1">Goal - $100k</p>
             </div>
