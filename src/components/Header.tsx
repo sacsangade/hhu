@@ -29,7 +29,7 @@ function Header() {
   }
 
   return (
-    <header className='hidden fixed top-0 left-0 w-full h-28 flex justify-between items-center px-5 lg:px-20 z-50 bg-white dark:bg-black bg-opacity-60 dark:bg-opacity-60'>
+    <header className='fixed top-0 left-0 w-full h-28 flex justify-between items-center px-5 lg:px-20 z-50 bg-white dark:bg-black bg-opacity-60 dark:bg-opacity-60'>
       <a href='/' className='flex-1'>
         <h3 className='font-bold dark:text-white'>HHU</h3>
       </a>
