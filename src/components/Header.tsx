@@ -34,7 +34,7 @@ function Header() {
       <a href='/'>
         <h3 className='font-bold dark:text-white'>HHU</h3>
       </a>
-        <div className="menu-btn"></div>
+        <div className="menu-btn md:hidden"></div>
         </div>
       <div className="hidden md:flex items-center gap-16 dark:text-white">
         <a href='/#about-us' className="text2 cursor-pointer">About Us</a>
