@@ -35,6 +35,7 @@ function Header() {
         <h3 className='font-bold dark:text-white'>HHU</h3>
       </a>
         <div class="menu-btn md:hidden">
+          s
         </div>
         </div>
       <div className="hidden md:flex items-center gap-16 dark:text-white">
