@@ -209,14 +209,14 @@ function Home() {
           </div>
         </div>
 
-        <div className="w-full md:py-20 flex flex-col md:flex-row items-center gap-10 md:gap-20">
-          <div className="w-2/5 p-8">
+        <div className="relative w-full md:py-20 flex flex-col md:flex-row items-center gap-10 md:gap-20">
+          <div className="absolute md:relative width-[65%] top-[362px] md:top-0 right-0 md:right-auto md:w-2/5 md:p-8">
             <img src="./img/home_section2_effect2.png" alt="effect2" className="w-full hidden dark:block" />
             <img src="./img/home_section2_effect2_light.png" alt="effect2" className="w-full float-right -mt-6 block dark:hidden" />
           </div>
           <div className="relative md:w-3/5 md:pr-12">
             <img src="./img/smiling_child.png" alt="smiling child" className="w-full" />
-            <div className="md:absolute md:-bottom-12 md:-left-80 rounded-xl p-12 md:w-96 bg-white dark:bg-black">
+            <div className="relative mt-[-60px] md:mt-0  md:absolute md:-bottom-12 md:-left-80 rounded-xl p-12 w-[90%] md:w-96 bg-white dark:bg-black">
               <h3>Volunteer With Us</h3>
               <p className="text2 mt-8 font-['Roboto-thin'] dark:text-[#909090]">
                 Help us on our mission to improve the lives of those in Fannin County
