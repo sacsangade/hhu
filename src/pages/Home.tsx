@@ -79,7 +79,7 @@ function Home() {
 
   return (
     <div className="home bg-white text-black dark:bg-black dark:text-white">
-      <section className="relative h-[600px] md:section1 flex items-center justify-center">
+      <section className="relative section1 flex items-center justify-center">
         <div className="flex flex-col items-center">
           <h1 className="font-bold text-center dark:text-white">All Is Grace.</h1>
           <h3 className="text-center font-['Roboto-thin'] max-w-2xl mt-4 md:mt-12 dark:text-[#909090]">
