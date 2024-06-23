@@ -298,8 +298,8 @@ function Home() {
           </div>
         </div>
 
-        <div id="contact" className="w-full pt-32 pb-20 flex gap-20">
-          <div className='w-3/5'>
+        <div id="contact" className="w-full pt-32 pb-20 flex flex-col md:flex-row md:gap-20">
+          <div className=' w-full sm:w-3/5 '>
             <Map center={[51.505, -0.09]} zoom={13} />
             <div className='grid grid-cols-3 gap-8 mt-12'>
               <div>
