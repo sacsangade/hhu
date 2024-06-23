@@ -262,7 +262,7 @@ function Home() {
           </div>
         </div>
 
-        <div id='upcoming' className="hidden w-full py-20 gap-20">
+        <div id='upcoming' className="w-full py-20 gap-20">
           <h2 className="w-full text-center">Upcoming Events</h2>
           <h3 className="w-full text-center mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Join Upcoming Events and Webinars
