@@ -43,7 +43,7 @@ function Header() {
         <button onClick={handleCheckout} className="h-[38px] sm:h-14 px-4 sm:px-6 text3 sm:text2 rounded-xl text-white dark:text-black bg-black dark:bg-white">
           Donation
         </button>
-        <button onClick={changeTheme} className="h-14 px-4 rounded-xl font-medium bg-black dark:bg-white stroke-white dark:stroke-black">
+        <button onClick={changeTheme} className="h-[38px] sm:h-14 w-[38px] sm:px-4 rounded-xl font-medium bg-black dark:bg-white stroke-white dark:stroke-black">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8.57141 15.9999C8.57141 20.1026 11.8973 23.4284 16 23.4284V8.57129C11.8973 8.57129 8.57141 11.8972 8.57141 15.9999Z" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M15.9999 1.14258V3.42829" strokeLinecap="round" strokeLinejoin="round"/>
