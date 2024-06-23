@@ -209,7 +209,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="hidden w-full py-20 flex items-center gap-20">
+        <div className="w-full py-20 flex items-center gap-20">
           <div className="w-2/5 p-8">
             <img src="./img/home_section2_effect2.png" alt="effect2" className="w-full hidden dark:block" />
             <img src="./img/home_section2_effect2_light.png" alt="effect2" className="w-full float-right -mt-6 block dark:hidden" />
