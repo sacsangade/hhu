@@ -298,7 +298,7 @@ function Home() {
           </div>
         </div>
 
-        <div id="contact" className="w-full pt-8 md:pt-32 md:pb-20 flex flex-col md:flex-row md:gap-20">
+        <div id="contact" className="w-full pt-16 md:pt-32 md:pb-20 flex flex-col md:flex-row md:gap-20">
           <div className=' w-full sm:w-3/5 '>
             <Map center={[51.505, -0.09]} zoom={13} />
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mt-12'>
