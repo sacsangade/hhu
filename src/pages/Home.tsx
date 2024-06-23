@@ -283,7 +283,7 @@ function Home() {
               </div>
             </div>
             <div className='w-full flex flex-col justify-between gap-12'>
-              {events.map((_, idx) => <div key={_.id} className="flex items-center gap-8">
+              {events.map((_, idx) => <div key={_.id} className="flex flex-col md:flex-row items-center gap-8">
                 <div className='w-40 h-40 font-bold flex flex-col items-center justify-center rounded-xl bg-[#E2E2E2] dark:bg-[#101010]'>
                   <h1>{28 + idx}</h1>
                   <h3>July</h3>
