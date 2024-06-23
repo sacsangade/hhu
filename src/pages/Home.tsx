@@ -267,7 +267,7 @@ function Home() {
           <h3 className="w-full text-center mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Join Upcoming Events and Webinars
           </h3>
-          <div className='mt-28 grid grid-cols-2 gap-20'>
+          <div className='mt-28 grid md:grid-cols-2 gap-10 md:gap-20'>
             <div className="w-full">
               <a href='/upcoming'>
                 <img src="./img/poor_child.png" alt="poor child" className="w-full rounded-t-xl" />
