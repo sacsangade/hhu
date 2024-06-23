@@ -78,7 +78,7 @@ function Home() {
   }
 
   return (
-    <div className="home bg-white text-black dark:bg-black dark:text-white">
+    <div className="hidden home bg-white text-black dark:bg-black dark:text-white">
       <section className="relative section1 flex items-center justify-center">
         <div className="flex flex-col items-center">
           <h1 className="font-bold text-center dark:text-white">All Is Grace.</h1>
