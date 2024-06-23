@@ -51,7 +51,25 @@ h3 {
 .text2 {
   font-size: 20px;
 }
-
+.menu-btn
+{
+  width: 20px;
+  height:20px;
+}
+.menu-btn:before
+{
+  content:"";
+  width:20px;
+  height:2px;
+  background:#FFF;
+}
+.menu-btn:after
+{
+  content:"";
+  width:20px;
+  height:2px;
+  background:#FFF;
+}
 .home .section1 {
   height: calc(100vh);
   background-image: url('/public/img/bg1.png');
