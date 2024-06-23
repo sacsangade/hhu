@@ -214,9 +214,9 @@ function Home() {
             <img src="./img/home_section2_effect2.png" alt="effect2" className="w-full hidden dark:block" />
             <img src="./img/home_section2_effect2_light.png" alt="effect2" className="w-full float-right -mt-6 block dark:hidden" />
           </div>
-          <div className="relative w-3/5 pr-12">
+          <div className="relative md:w-3/5 md:pr-12">
             <img src="./img/smiling_child.png" alt="smiling child" className="w-full" />
-            <div className="absolute -bottom-12 -left-80 rounded-xl p-12 w-96 bg-white dark:bg-black">
+            <div className="md:absolute md:-bottom-12 md:-left-80 rounded-xl p-12 md:w-96 bg-white dark:bg-black">
               <h3>Volunteer With Us</h3>
               <p className="text2 mt-8 font-['Roboto-thin'] dark:text-[#909090]">
                 Help us on our mission to improve the lives of those in Fannin County
