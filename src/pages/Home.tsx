@@ -216,7 +216,7 @@ function Home() {
           </div>
           <div className="relative lg:w-3/5 lg:pr-12">
             <img src="./img/smiling_child.png" alt="smiling child" className="w-full" />
-            <div className="relative mt-[-60px] lg:mt-0  lg:absolute lg:-bottom-12 lg:-left-80 rounded-xl p-8 sm:p-12 w-[90%] md:w-96 bg-white dark:bg-black">
+            <div className="relative mt-[-60px] lg:mt-0  lg:absolute lg:-bottom-12 lg:-left-80 rounded-xl p-8 sm:p-12 w-[90%] lg:w-96 bg-white dark:bg-black">
               <h3 className="text-[24px] sm:text-[32px]">Volunteer With Us</h3>
               <p className="text-base sm:text-[20px] leading-[1.5] mt-4 sm:mt-8 font-['Roboto-thin'] dark:text-[#909090]">
                 Help us on our mission to improve the lives of those in Fannin County
