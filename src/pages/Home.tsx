@@ -294,15 +294,15 @@ function Home() {
               </div>
             </div>
             <div className='w-full flex flex-col justify-between gap-12'>
-              {events.map((_, idx) => <div key={_.id} className="flex flex-col md:flex-row sm:items-center gap-8">
-                <div className='w-40 h-40 font-bold flex flex-col items-center justify-center rounded-xl bg-[#E2E2E2] dark:bg-[#101010]'>
-                  <h1>{28 + idx}</h1>
-                  <h3>July</h3>
+              {events.map((_, idx) => <div key={_.id} className="flex  sm:items-center gap-4 sm:gap-8">
+                <div className='w-5 sm:w-40 h-5 sm:h-40 font-bold flex flex-col items-center justify-center rounded-xl bg-[#E2E2E2] dark:bg-[#101010]'>
+                  <h1 className='text-[24px] sm:text-[64px] leading-[1.5]'>{28 + idx}</h1>
+                  <h3 className='text-[12px] sm:text-[32px] leading-[1.5]'>July</h3>
                 </div>
                 <div className='flex-1'>
-                  <p className='text1'>{_.title}</p>
-                  <p className='text2 mt-4 dark:text-[#909090]'>{_.desc}</p>
-                  <p className='text2 mt-4 dark:text-[#909090]'>{_.date}</p>
+                  <p className='text-[18px] sm:text1 leading-[1.5]'>{_.title}</p>
+                  <p className='text-base sm:text2 mt-4 dark:text-[#909090]'>{_.desc}</p>
+                  <p className='text-base sm:text2 mt-4 dark:text-[#909090]'>{_.date}</p>
                 </div>
               </div>)}
             </div>
