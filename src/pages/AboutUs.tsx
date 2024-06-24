@@ -79,7 +79,7 @@ function AboutUs() {
   };
 
   return (
-    <div className="page bg-white text-black dark:bg-black dark:text-white">
+    <div className="hidden page bg-white text-black dark:bg-black dark:text-white">
       <section className="w-full max-w-screen-2xl px-8 mx-auto py-24">
         <div className="flex items-center gap-20">
           <div className="">
