@@ -133,7 +133,7 @@ function Home() {
           </div>
         </div>
 
-        <div id='about-us' className="relative w-full py-8 md:px-20 mt-12 md:mt-0 flex flex-col md:flex-row items-center gap-20 total_donation">
+        <div id='about-us' className="relative w-full py-10 md:px-20 sm:mt-12 md:mt-0 flex flex-col md:flex-row items-center gap-20 total_donation">
           <div className="absolute top-[512px] md:top-0 right-0">
             <img src="./img/home_section2_effect.png" alt="effect2" className="w-3/5 float-right -mt-20 hidden dark:block" />
             <img src="./img/home_section2_effect_light.png" alt="effect2" className="w-3/5 float-right -mt-20 block dark:hidden" />
