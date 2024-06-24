@@ -235,7 +235,7 @@ function Home() {
         </div>
 
         <div id='projects' className="w-full py-20 gap-20">
-          <h2 className="w-full text-center">Projects</h2>
+          <h2 className="w-full text-center text-[30px] md:text-[48px] leading-[1.5]">Projects</h2>
           <h3 className="w-full text-center mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Subsidiary Charity’s Managed by the Heaven Help Us Foundation
           </h3>
@@ -274,7 +274,7 @@ function Home() {
         </div>
 
         <div id='upcoming' className="w-full py-20 gap-20">
-          <h2 className="w-full text-center">Upcoming Events</h2>
+          <h2 className="w-full text-center text-[30px] md:text-[48px] leading-[1.5]">Upcoming Events</h2>
           <h3 className="w-full text-center mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Join Upcoming Events and Webinars
           </h3>
@@ -331,7 +331,7 @@ function Home() {
             </div>
           </div>
           <div className='w-full md:w-2/5'>
-            <h2 className="font-bold mt-12  sm:mt-0">Contact Us</h2>
+            <h2 className="font-bold mt-12  sm:mt-0 text-[30px] md:text-[48px] leading-[1.5]">Contact Us</h2>
             <div className="mt-12">
               <label className="text2 font-['Roboto-thin'] dark:text-[#909090]">Name</label>
               <input className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" />
