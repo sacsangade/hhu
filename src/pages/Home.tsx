@@ -295,7 +295,7 @@ function Home() {
             </div>
             <div className='w-full flex flex-col justify-between gap-12'>
               {events.map((_, idx) => <div key={_.id} className="flex  sm:items-center gap-4 sm:gap-8">
-                <div className='w-5 sm:w-40 h-5 sm:h-40 font-bold flex flex-col items-center justify-center rounded-xl bg-[#E2E2E2] dark:bg-[#101010]'>
+                <div className='w-[4rem] sm:w-40 h-[4rem] sm:h-40 font-bold flex flex-col items-center justify-center rounded-[5px] sm:rounded-xl bg-[#E2E2E2] dark:bg-[#101010]'>
                   <h1 className='text-[24px] sm:text-[64px] leading-[1.5]'>{28 + idx}</h1>
                   <h3 className='text-[12px] sm:text-[32px] leading-[1.5]'>July</h3>
                 </div>
@@ -314,37 +314,37 @@ function Home() {
             <Map center={[51.505, -0.09]} zoom={13} />
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mt-12'>
               <div>
-                <p className='text1'>Address</p>
-                <p className="text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
+                <p className='text-[20px] sm:text1'>Address</p>
+                <p className="text-base sm:text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
                   1455 Lickskillet Circle, Epworth, GA, 30541, United States
                 </p>
               </div>
               <div>
-                <p className='text1'>Contacts</p>
-                <p className="text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
+                <p className='text-[20px] sm:text1'>Contacts</p>
+                <p className="text-base sm:text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
                   (706) 633-9432
                 </p>
-                <p className="text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
+                <p className="text-base sm:text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
                   rollchase@gmail.com
                 </p>
               </div>
             </div>
           </div>
           <div className='w-full md:w-2/5'>
-            <h2 className="font-bold mt-12  sm:mt-0 text-[30px] md:text-[48px] leading-[1.5]">Contact Us</h2>
-            <div className="mt-12">
-              <label className="text2 font-['Roboto-thin'] dark:text-[#909090]">Name</label>
+            <h2 className="font-bold mt-8 sm:mt-12  sm:mt-0 text-[30px] md:text-[48px] leading-[1.5]">Contact Us</h2>
+            <div className="mt-4 sm:mt-12">
+              <label className="text-base sm:text2 font-['Roboto-thin'] dark:text-[#909090]">Name</label>
               <input className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" />
             </div>
-            <div className="mt-8">
-              <label className="text2 font-['Roboto-thin'] dark:text-[#909090]">Email / Phone</label>
+            <div className="mt-4 sm:mt-8">
+              <label className="text-base sm:text2 font-['Roboto-thin'] dark:text-[#909090]">Email / Phone</label>
               <input className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" />
             </div>
-            <div className="mt-8">
-              <label className="text2 font-['Roboto-thin'] dark:text-[#909090]">Message</label>
+            <div className="mt-4 sm:mt-8">
+              <label className="text-base sm:text2 font-['Roboto-thin'] dark:text-[#909090]">Message</label>
               <textarea onChange={(e) => setMessage(e.target.value)} value={message} className="w-full h-28 p-4 rounded-lg mt-2 bg-transparent focus:outline-none border dark:border-[#101010]" />
             </div>
-            <button className="px-8 py-4 mt-8 text2 text-black rounded-md bg-[#E2E2E2] dark:bg-white">
+            <button className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white">
               Send Message
             </button>
           </div>
