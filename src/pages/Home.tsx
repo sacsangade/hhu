@@ -44,7 +44,7 @@ const events = [
     id: 3,
     title: "Education for Poor Children",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-    date: "10:00 - 18:00, Friday",
+    date: "10:00 - 18:00, Friday1",
   }
 ];
 
