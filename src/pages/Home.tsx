@@ -210,7 +210,7 @@ function Home() {
         </div>
 
         <div className="relative w-full md:py-20 flex flex-col md:flex-row items-center gap-10 md:gap-20">
-          <div className="absolute md:relative w-[65%] top-[362px] md:top-0 right-0 md:right-auto md:w-2/5 md:p-8">
+          <div className="absolute md:relative w-[37%] top-[78%] md:top-0 right-0 md:right-auto md:w-2/5 md:p-8">
             <img src="./img/home_section2_effect2.png" alt="effect2" className="w-full hidden dark:block" />
             <img src="./img/home_section2_effect2_light.png" alt="effect2" className="w-full float-right -mt-6 block dark:hidden" />
           </div>
