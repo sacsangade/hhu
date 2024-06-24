@@ -82,7 +82,7 @@ function Home() {
       <section className="relative section1 flex items-center justify-center">
         <div className="flex flex-col items-center">
           <h1 className=" text-4xl md:text-[64px] font-bold text-center dark:text-white">All Is Grace.</h1>
-          <h3 className="text-base md:text-[32px] leading-6 text-center font-['Roboto-thin'] max-w-2xl mt-2 md:mt-12 dark:text-[#909090]">
+          <h3 className="text-base md:text-[32px] leading-[1.5] text-center font-['Roboto-thin'] max-w-2xl mt-2 md:mt-12 dark:text-[#909090]">
             Join us in serving those in Fannin County who need our help the most.
           </h3>
           <a href='#upcoming' className="px-4 sm:px-12 py-2 sm:py-4 font-semibold rounded-[5px] sm:rounded-xl text3 sm:text2 mt-6 md:mt-16 bg-[#FF3F4F] dark:text-black">
