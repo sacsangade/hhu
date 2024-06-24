@@ -44,7 +44,7 @@ const events = [
     id: 3,
     title: "Education for Poor Children",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
-    date: "10:00 - 18:00, Friday1",
+    date: "10:00 - 18:00, Friday",
   }
 ];
 
@@ -243,6 +243,17 @@ function Home() {
             <Swiper
               spaceBetween={70}
               slidesPerView={1}
+               breakpoints={{
+    0: {
+      slidesPerView: 1,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    768:{
+      slidesPerView:3
+    }
+  }}
               pagination={pagination}
               modules={[Pagination]}
             >
@@ -262,7 +273,7 @@ function Home() {
           </div>
         </div>
 
-        <div id='upcoming' className="w-full py-10 sm:py-20 gap-20">
+        <div id='upcoming' className="w-full py-20 gap-20">
           <h2 className="w-full text-center text-[30px] md:text-[48px] leading-[1.5]">Upcoming Events</h2>
           <h3 className="w-full text-center mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Join Upcoming Events and Webinars
