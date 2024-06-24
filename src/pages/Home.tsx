@@ -239,7 +239,7 @@ function Home() {
           <h3 className="w-full text-center text-lg sm:text-[32px] mt-4 sm:mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Subsidiary Charity’s Managed by the Heaven Help Us Foundation
           </h3>
-          <div className='mt-28 w-full'>
+          <div className='mt-12 sm:mt-28 w-full'>
             <Swiper
               spaceBetween={70}
               slidesPerView={1}
