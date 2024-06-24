@@ -274,7 +274,7 @@ function Home() {
         </div>
 
         <div id='upcoming' className="w-full  py-10 sm:py-20 gap-20">
-          <h2 className="w-full text-center text-[30px] md:text-[48px] leading-[1.5]">Upcoming Events</h2>
+          <h2 className="w-full text-center text-[30px] sm:text-[48px] leading-[1.5]">Upcoming Events</h2>
           <h3 className="w-full text-center text-lg sm:text-[32px] leading-[1.5] mt-4 sm:mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Join Upcoming Events and Webinars
           </h3>
