@@ -262,7 +262,7 @@ function Home() {
                   <a href='/projects' className='flex justify-center'>
                     <div className="w-fit">
                       <img src={_.img} />
-                      <h3 className=" text-[20px] sm:text-[32px] py-4 sm:py-8 text-center rounded-b-3xl bg-[#E2E2E2] dark:bg-[#101010]">
+                      <h3 className=" text-[20px] sm:text-[32px] py-6 sm:py-8 text-center rounded-b-3xl bg-[#E2E2E2] dark:bg-[#101010]">
                         {_.name}
                       </h3>
                     </div>
@@ -275,10 +275,10 @@ function Home() {
 
         <div id='upcoming' className="w-full  py-10 sm:py-20 gap-20">
           <h2 className="w-full text-center text-[30px] md:text-[48px] leading-[1.5]">Upcoming Events</h2>
-          <h3 className="w-full text-center mt-12 font-['Roboto-thin'] dark:text-[#909090]">
+          <h3 className="w-full text-center text-lg sm:text-[32px] mt-4 sm:mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Join Upcoming Events and Webinars
           </h3>
-          <div className='mt-28 grid md:grid-cols-2 gap-10 md:gap-20'>
+          <div className='mt-12 sm:mt-28 grid md:grid-cols-2 gap-10 md:gap-20'>
             <div className="w-full">
               <a href='/upcoming'>
                 <img src="./img/poor_child.png" alt="poor child" className="w-full rounded-t-xl" />
