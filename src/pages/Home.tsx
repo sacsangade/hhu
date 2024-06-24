@@ -203,7 +203,7 @@ function Home() {
               <p className="text-[18px] md:text-[24px]">Collection - $75k</p>
               <p className="text-[18px] md:text-[24px]">Goal - $100k</p>
             </div>
-            <button onClick={handleCheckout} className="mt-12 px-4 sm:px-8 h-14 text3 sm:text2 rounded-[5px] sm:rounded-xl dark:text-black bg-[#FF3F4F]">
+            <button onClick={handleCheckout} className="mt-12 px-4 sm:px-8 h-[38px] sm:h-14 text3 sm:text2 rounded-[5px] sm:rounded-xl dark:text-black bg-[#FF3F4F]">
               Donate
             </button>
           </div>
