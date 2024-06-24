@@ -284,11 +284,11 @@ function Home() {
                 <img src="./img/poor_child.png" alt="poor child" className="w-full rounded-t-xl" />
               </a>
               <div className="p-8 rounded-b-xl bg-[#E2E2E2] dark:bg-[#101010]">
-                <h3>Education for Poor Children</h3>
-                <p className="text1 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
+                <h3 className="text-[20px] sm:text-[32px] leading-[1.5]">Education for Poor Children</h3>
+                <p className="text-base sm:text1 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                 </p>
-                <p className="text1 font-['Roboto-thin'] mt-8 dark:text-[#909090]">
+                <p className="text-base sm:text1 font-['Roboto-thin'] mt-8 dark:text-[#909090]">
                   10:00 - 18:00, Thursday
                 </p>
               </div>
