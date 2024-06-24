@@ -133,7 +133,7 @@ function Home() {
           </div>
         </div>
 
-        <div id='about-us' className="relative w-full py-10 md:px-20 sm:mt-12 md:mt-0 flex flex-col md:flex-row items-center gap-20 total_donation">
+        <div id='about-us' className="relative w-full py-8 md:px-20 mt-12 md:mt-0 flex flex-col md:flex-row items-center gap-20 total_donation">
           <div className="absolute top-[512px] md:top-0 right-0">
             <img src="./img/home_section2_effect.png" alt="effect2" className="w-3/5 float-right -mt-20 hidden dark:block" />
             <img src="./img/home_section2_effect_light.png" alt="effect2" className="w-3/5 float-right -mt-20 block dark:hidden" />
@@ -234,7 +234,7 @@ function Home() {
           </div>
         </div>
 
-        <div id='projects' className="w-full py-10 sm:py-20 gap-20">
+        <div id='projects' className="w-full py-20 gap-20">
           <h2 className="w-full text-center text-[30px] md:text-[48px] leading-[1.5]">Projects</h2>
           <h3 className="w-full text-center text-lg sm:text-[32px] mt-4 sm:mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Subsidiary Charity’s Managed by the Heaven Help Us Foundation
@@ -262,7 +262,7 @@ function Home() {
                   <a href='/projects' className='flex justify-center'>
                     <div className="w-fit">
                       <img src={_.img} />
-                      <h3 className='py-8 text-center rounded-b-3xl bg-[#E2E2E2] dark:bg-[#101010]'>
+                      <h3 className=" text-[20px] sm:text-[32px] py-4 sm:py-8 text-center rounded-b-3xl bg-[#E2E2E2] dark:bg-[#101010]">
                         {_.name}
                       </h3>
                     </div>
