@@ -195,15 +195,15 @@ function Home() {
                 <p className="text-base sm:text2">Toys Donation</p>
               </div>
             </div>
-            <h3 className="mt-8">Total Donation</h3>
+            <h3 className="mt-8 text-[24px] md:text-[32px]">Total Donation</h3>
             <div className="w-full h-2 mt-8 rounded-full bg-[#D9D9D9] dark:bg-white">
               <div className="w-2/3 h-2 rounded-full bg-[#FF3F4F]" />
             </div>
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-0 justify-between mt-8">
-              <p className="text1">Collection - $75k</p>
-              <p className="text1">Goal - $100k</p>
+              <p className="text1  text-[18px] md:text-[24px]">Collection - $75k</p>
+              <p className="text1 text-[18px] md:text-[24px]">Goal - $100k</p>
             </div>
-            <button onClick={handleCheckout} className="mt-12 px-8 h-14 text2 rounded-xl dark:text-black bg-[#FF3F4F]">
+            <button onClick={handleCheckout} className="mt-12 px-4 sm:px-8 h-14 text3 sm:text2 rounded-[5px] sm:rounded-xl dark:text-black bg-[#FF3F4F]">
               Donate
             </button>
           </div>
