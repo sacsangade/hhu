@@ -153,55 +153,55 @@ function Home() {
             </div>
           </div>
           <div className="flex-1 p-8 rounded-xl z-30 bg-white dark:bg-black text-center sm:text-left">
-            <div className="flex flex-col gap-4 md:gap-0 md:grid sm:grid-cols-2 sm:py-4 font-['Roboto-thin'] stroke-black dark:stroke-white">
+            <div className="flex flex-col gap-4 sm:gap-0 sm:grid sm:grid-cols-2 sm:py-4 font-['Roboto-thin'] stroke-black dark:stroke-white">
               <div className="flex items-center gap-8">
                 <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                <p className="text-base sm:text2">Food Donation</p>
+                <p className="text-base sm:text[20px] leading-[1.5]">Food Donation</p>
               </div>
               <div className="flex items-center gap-8">
                 <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                <p className="text-base sm:text2">Water Supply</p>
-              </div>
-            </div>
-            <div className="flex flex-col gap-4 md:gap-0 md:grid sm:grid-cols-2 sm:py-4 mt-4 sm:mt-0 font-['Roboto-thin'] stroke-black dark:stroke-white">
-              <div className="flex items-center gap-8">
-                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-                <p className="text-base sm:text2">Money Donation</p>
-              </div>
-              <div className="flex items-center gap-8">
-                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-                <p className="text-base sm:text2">Education Supply</p>
+                <p className="text-base sm:text[20px] leading-[1.5]">Water Supply</p>
               </div>
             </div>
-            <div className="flex flex-col gap-4 md:gap-0 md:grid sm:grid-cols-2 sm:py-4 mt-4 sm:mt-0 font-['Roboto-thin'] stroke-black dark:stroke-white">
+            <div className="flex flex-col gap-4 sm:gap-0 sm:grid sm:grid-cols-2 sm:py-4 mt-4 sm:mt-0 font-['Roboto-thin'] stroke-black dark:stroke-white">
               <div className="flex items-center gap-8">
                 <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                <p className="text-base sm:text2">Dress Donation</p>
+                <p className="text-base sm:text[20px] leading-[1.5]">Money Donation</p>
               </div>
               <div className="flex items-center gap-8">
                 <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                <p className="text-base sm:text2">Toys Donation</p>
+                <p className="text-base sm:text[20px] leading-[1.5]">Education Supply</p>
               </div>
             </div>
-            <h3 className="mt-8 text-[24px] md:text-[32px]">Total Donation</h3>
+            <div className="flex flex-col gap-4 sm:gap-0 sm:grid sm:grid-cols-2 sm:py-4 mt-4 sm:mt-0 font-['Roboto-thin'] stroke-black dark:stroke-white">
+              <div className="flex items-center gap-8">
+                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <p className="text-base sm:text[20px] leading-[1.5]">Dress Donation</p>
+              </div>
+              <div className="flex items-center gap-8">
+                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <p className="text-base sm:text[20px] leading-[1.5]">Toys Donation</p>
+              </div>
+            </div>
+            <h3 className="mt-8 text-[24px] sm:text-[32px]">Total Donation</h3>
             <div className="w-full h-2 mt-8 rounded-full bg-[#D9D9D9] dark:bg-white">
               <div className="w-2/3 h-2 rounded-full bg-[#FF3F4F]" />
             </div>
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-0 justify-between mt-8">
-              <p className="text-[18px] md:text-[24px]">Collection - $75k</p>
-              <p className="text-[18px] md:text-[24px]">Goal - $100k</p>
+              <p className="text-[18px] sm:text-[24px]">Collection - $75k</p>
+              <p className="text-[18px] sm:text-[24px]">Goal - $100k</p>
             </div>
             <button onClick={handleCheckout} className="mt-12 px-4 sm:px-8 h-[38px] sm:h-14 text3 sm:text2 rounded-[5px] sm:rounded-xl dark:text-black bg-[#FF3F4F]">
               Donate
@@ -218,7 +218,7 @@ function Home() {
             <img src="./img/smiling_child.png" alt="smiling child" className="w-full" />
             <div className="relative mt-[-60px] md:mt-0  md:absolute md:-bottom-12 md:-left-80 rounded-xl p-8 sm:p-12 w-[90%] md:w-96 bg-white dark:bg-black">
               <h3 className="text-[24px] sm:text-[32px]">Volunteer With Us</h3>
-              <p className="text-base sm:text2 mt-4 sm:mt-8 font-['Roboto-thin'] dark:text-[#909090]">
+              <p className="text-base sm:text-[20px] leading-[1.5] mt-4 sm:mt-8 font-['Roboto-thin'] dark:text-[#909090]">
                 Help us on our mission to improve the lives of those in Fannin County
               </p>
               <div className='mt-8 sm:mt-12'>
@@ -235,8 +235,8 @@ function Home() {
         </div>
 
         <div id='projects' className="w-full py-10 sm:py-20 gap-20">
-          <h2 className="w-full text-center text-[30px] md:text-[48px] leading-[1.5]">Projects</h2>
-          <h3 className="w-full text-center text-lg sm:text-[32px] mt-4 sm:mt-12 font-['Roboto-thin'] dark:text-[#909090]">
+          <h2 className="w-full text-center text-[30px] sm:text-[48px] leading-[1.5]">Projects</h2>
+          <h3 className="w-full text-center text-lg sm:text-[32px] leading-[1.5] mt-4 sm:mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Subsidiary Charity’s Managed by the Heaven Help Us Foundation
           </h3>
           <div className='mt-12 sm:mt-28 w-full'>
@@ -275,7 +275,7 @@ function Home() {
 
         <div id='upcoming' className="w-full  py-10 sm:py-20 gap-20">
           <h2 className="w-full text-center text-[30px] md:text-[48px] leading-[1.5]">Upcoming Events</h2>
-          <h3 className="w-full text-center text-lg sm:text-[32px] mt-4 sm:mt-12 font-['Roboto-thin'] dark:text-[#909090]">
+          <h3 className="w-full text-center text-lg sm:text-[32px] leading-[1.5] mt-4 sm:mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Join Upcoming Events and Webinars
           </h3>
           <div className='mt-12 sm:mt-28 grid md:grid-cols-2 gap-10 md:gap-20'>
@@ -285,10 +285,10 @@ function Home() {
               </a>
               <div className="p-8 rounded-b-xl bg-[#E2E2E2] dark:bg-[#101010]">
                 <h3 className="text-[20px] sm:text-[32px] leading-[1.5]">Education for Poor Children</h3>
-                <p className="text-base sm:text1 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
+                <p className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] mt-4 dark:text-[#909090]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                 </p>
-                <p className="text-base sm:text1 font-['Roboto-thin'] mt-8 dark:text-[#909090]">
+                <p className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] mt-8 dark:text-[#909090]">
                   10:00 - 18:00, Thursday
                 </p>
               </div>
@@ -333,15 +333,15 @@ function Home() {
           <div className='w-full md:w-2/5'>
             <h2 className="font-bold mt-8 sm:mt-12  sm:mt-0 text-[30px] md:text-[48px] leading-[1.5]">Contact Us</h2>
             <div className="mt-4 sm:mt-12">
-              <label className="text-base sm:text2 font-['Roboto-thin'] dark:text-[#909090]">Name</label>
+              <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Name</label>
               <input className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" />
             </div>
             <div className="mt-4 sm:mt-8">
-              <label className="text-base sm:text2 font-['Roboto-thin'] dark:text-[#909090]">Email / Phone</label>
+              <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Email / Phone</label>
               <input className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" />
             </div>
             <div className="mt-4 sm:mt-8">
-              <label className="text-base sm:text2 font-['Roboto-thin'] dark:text-[#909090]">Message</label>
+              <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Message</label>
               <textarea onChange={(e) => setMessage(e.target.value)} value={message} className="w-full h-28 p-4 rounded-lg mt-2 bg-transparent focus:outline-none border dark:border-[#101010]" />
             </div>
             <button className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white">
