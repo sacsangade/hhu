@@ -209,14 +209,14 @@ function Home() {
           </div>
         </div>
 
-        <div className="relative w-full md:py-20 flex flex-col md:flex-row items-center gap-10 md:gap-20">
-          <div className="absolute md:relative w-[37%] top-[78%] md:top-0 right-0 md:right-auto md:w-2/5 md:p-8">
+        <div className="relative w-full md:py-20 flex flex-col lg:flex-row items-center gap-10 lg:gap-20">
+          <div className="absolute lg:relative w-[37%] top-[78%] lg:top-0 right-0 lg:right-auto lg:w-2/5 lg:p-8">
             <img src="./img/home_section2_effect2.png" alt="effect2" className="w-full hidden dark:block" />
             <img src="./img/home_section2_effect2_light.png" alt="effect2" className="w-full float-right -mt-6 block dark:hidden" />
           </div>
-          <div className="relative md:w-3/5 md:pr-12">
+          <div className="relative lg:w-3/5 lg:pr-12">
             <img src="./img/smiling_child.png" alt="smiling child" className="w-full" />
-            <div className="relative mt-[-60px] md:mt-0  md:absolute md:-bottom-12 md:-left-80 rounded-xl p-8 sm:p-12 w-[90%] md:w-96 bg-white dark:bg-black">
+            <div className="relative mt-[-60px] lg:mt-0  lg:absolute lg:-bottom-12 lg:-left-80 rounded-xl p-8 sm:p-12 w-[90%] md:w-96 bg-white dark:bg-black">
               <h3 className="text-[24px] sm:text-[32px]">Volunteer With Us</h3>
               <p className="text-base sm:text-[20px] leading-[1.5] mt-4 sm:mt-8 font-['Roboto-thin'] dark:text-[#909090]">
                 Help us on our mission to improve the lives of those in Fannin County
@@ -278,7 +278,7 @@ function Home() {
           <h3 className="w-full text-center text-lg sm:text-[32px] leading-[1.5] mt-4 sm:mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Join Upcoming Events and Webinars
           </h3>
-          <div className='mt-12 sm:mt-28 grid md:grid-cols-2 gap-10 md:gap-20'>
+          <div className='mt-12 sm:mt-28 grid lg:grid-cols-2 gap-10 lg:gap-20'>
             <div className="w-full">
               <a href='/upcoming'>
                 <img src="./img/poor_child.png" alt="poor child" className="w-full rounded-t-xl" />
@@ -309,8 +309,8 @@ function Home() {
           </div>
         </div>
 
-        <div id="contact" className="w-full pt-16 md:pt-32 md:pb-20 flex flex-col md:flex-row md:gap-20">
-          <div className=' w-full md:w-3/5 '>
+        <div id="contact" className="w-full pt-16 md:pt-32 md:pb-20 flex flex-col lg:flex-row lg:gap-20">
+          <div className=' w-full lg:w-3/5 '>
             <Map center={[51.505, -0.09]} zoom={13} />
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mt-12'>
               <div>
@@ -330,7 +330,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className='w-full md:w-2/5'>
+          <div className='w-full lg:w-2/5'>
             <h2 className="font-bold mt-8 sm:mt-12  sm:mt-0 text-[30px] md:text-[48px] leading-[1.5]">Contact Us</h2>
             <div className="mt-4 sm:mt-12">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Name</label>
