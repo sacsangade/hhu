@@ -140,14 +140,14 @@ function Home() {
           </div>
           <div className="flex-1">
             <h2 className="text-[30px] md:text-[48px] leading-[1.5]">About Us</h2>
-            <p className="text2 font-['Roboto-thin'] mt-8 dark:text-[#909090]">
+            <p className=" text-base sm:text2 font-['Roboto-thin'] mt-8 dark:text-[#909090]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
             </p>
-            <p className="text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
+            <p className="text-base sm:text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
             </p>
             <div className='mt-12'>
-              <a href='/aboutus' className="px-8 py-4 h-14 text2 rounded-xl bg-[#E2E2E2] dark:bg-[#101010]">
+              <a href='/aboutus' className="px-4 sm:px-8 py-2 sm:py-4 h-14 text3 sm:text2  rounded-[5px] sm:rounded-xl bg-[#E2E2E2] dark:bg-[#101010]">
                 Learn More
               </a>
             </div>
