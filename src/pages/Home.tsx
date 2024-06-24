@@ -234,44 +234,7 @@ function Home() {
           </div>
         </div>
 
-        <div id='projects' className="w-full py-20 gap-20">
-          <h2 className="w-full text-center text-[30px] md:text-[48px] leading-[1.5]">Projects</h2>
-          <h3 className="w-full text-center text-lg sm:text-[32px] mt-4 sm:mt-12 font-['Roboto-thin'] dark:text-[#909090]">
-            Subsidiary Charity’s Managed by the Heaven Help Us Foundation
-          </h3>
-          <div className='mt-12 sm:mt-28 w-full'>
-            <Swiper
-              spaceBetween={70}
-              slidesPerView={1}
-               breakpoints={{
-    0: {
-      slidesPerView: 1,
-    },
-    640: {
-      slidesPerView: 2,
-    },
-    768:{
-      slidesPerView:3
-    }
-  }}
-              pagination={pagination}
-              modules={[Pagination]}
-            >
-              {projects.map(_ =>
-                <SwiperSlide key={_.id}>
-                  <a href='/projects' className='flex justify-center'>
-                    <div className="w-fit">
-                      <img src={_.img} />
-                      <h3 className='py-8 text-center rounded-b-3xl bg-[#E2E2E2] dark:bg-[#101010]'>
-                        {_.name}
-                      </h3>
-                    </div>
-                  </a>
-                </SwiperSlide>
-              )}
-            </Swiper>
-          </div>
-        </div>
+        
 
         <div id='upcoming' className="w-full py-20 gap-20">
           <h2 className="w-full text-center text-[30px] md:text-[48px] leading-[1.5]">Upcoming Events</h2>
