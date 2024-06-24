@@ -234,7 +234,7 @@ function Home() {
           </div>
         </div>
 
-        <div id='projects' className="w-full py-8 sm:py-20 gap-20">
+        <div id='projects' className="w-full py-20 gap-20">
           <h2 className="w-full text-center text-[30px] md:text-[48px] leading-[1.5]">Projects</h2>
           <h3 className="w-full text-center text-lg sm:text-[32px] mt-4 sm:mt-12 font-['Roboto-thin'] dark:text-[#909090]">
             Subsidiary Charity’s Managed by the Heaven Help Us Foundation
