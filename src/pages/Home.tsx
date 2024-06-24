@@ -139,7 +139,7 @@ function Home() {
             <img src="./img/home_section2_effect_light.png" alt="effect2" className="w-3/5 float-right -mt-20 block dark:hidden" />
           </div>
           <div className="flex-1">
-            <h2>About Us</h2>
+            <h2 className="text-[30px] md:text-[48px] leading-[1.5]">About Us</h2>
             <p className="text2 font-['Roboto-thin'] mt-8 dark:text-[#909090]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
             </p>
