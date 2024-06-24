@@ -139,15 +139,15 @@ function Home() {
             <img src="./img/home_section2_effect_light.png" alt="effect2" className="w-3/5 float-right -mt-20 block dark:hidden" />
           </div>
           <div className="flex-1">
-            <h2 className="text-[30px] md:text-[48px] leading-[1.5]">About Us</h2>
-            <p className=" text-base sm:text2 font-['Roboto-thin'] mt-8 dark:text-[#909090]">
+            <h2 className="text-[30px] sm:text-[48px] leading-[1.5]">About Us</h2>
+            <p className=" text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] mt-8 dark:text-[#909090]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
             </p>
-            <p className="text-base sm:text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
+            <p className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] mt-4 dark:text-[#909090]">
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
             </p>
             <div className='mt-12'>
-              <a href='/aboutus' className=" inline-block leading-[1.5] sm:h-auto px-4 sm:px-8 py-2 sm:py-4 h-[38px] sm:h-14 text3 sm:text2  rounded-[5px] sm:rounded-xl bg-[#E2E2E2] dark:bg-[#101010]">
+              <a href='/aboutus' className=" inline-block leading-[1.5]  px-4 sm:px-8 py-2 sm:py-4 h-[38px] sm:h-14 text3 sm:text2  rounded-[5px] sm:rounded-xl bg-[#E2E2E2] dark:bg-[#101010]">
                 Learn More
               </a>
             </div>
@@ -300,9 +300,9 @@ function Home() {
                   <h3 className='text-[12px] sm:text-[32px] leading-[1.5]'>July</h3>
                 </div>
                 <div className='flex-1'>
-                  <p className='text-[18px] sm:text1 leading-[1.5]'>{_.title}</p>
-                  <p className='text-base sm:text2 mt-4 dark:text-[#909090]'>{_.desc}</p>
-                  <p className='text-base sm:text2 mt-4 dark:text-[#909090]'>{_.date}</p>
+                  <p className='text-[18px] sm:text-[24px] leading-[1.5]'>{_.title}</p>
+                  <p className='text-base sm:text-[20px] mt-4 dark:text-[#909090]'>{_.desc}</p>
+                  <p className='text-base sm:text-[20px] mt-4 dark:text-[#909090]'>{_.date}</p>
                 </div>
               </div>)}
             </div>
@@ -310,21 +310,21 @@ function Home() {
         </div>
 
         <div id="contact" className="w-full pt-16 md:pt-32 md:pb-20 flex flex-col md:flex-row md:gap-20">
-          <div className=' w-full sm:w-3/5 '>
+          <div className=' w-full md:w-3/5 '>
             <Map center={[51.505, -0.09]} zoom={13} />
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mt-12'>
               <div>
-                <p className='text-[20px] sm:text1'>Address</p>
-                <p className="text-base sm:text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
+                <p className='text-[20px] sm:text-[24px]'>Address</p>
+                <p className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] mt-4 dark:text-[#909090]">
                   1455 Lickskillet Circle, Epworth, GA, 30541, United States
                 </p>
               </div>
               <div>
-                <p className='text-[20px] sm:text1'>Contacts</p>
-                <p className="text-base sm:text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
+                <p className='text-[20px] sm:text-[24px]'>Contacts</p>
+                <p className="text-base sm:text-[20px] leading-[1.5]  font-['Roboto-thin'] mt-4 dark:text-[#909090]">
                   (706) 633-9432
                 </p>
-                <p className="text-base sm:text2 font-['Roboto-thin'] mt-4 dark:text-[#909090]">
+                <p className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] mt-4 dark:text-[#909090]">
                   rollchase@gmail.com
                 </p>
               </div>
