@@ -147,7 +147,7 @@ function Home() {
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
             </p>
             <div className='mt-12'>
-              <a href='/aboutus' className="h-[38px] sm:h-auto px-4 sm:px-8 py-2 sm:py-4 h-14 text3 sm:text2  rounded-[5px] sm:rounded-xl bg-[#E2E2E2] dark:bg-[#101010]">
+              <a href='/aboutus' className=" sm:h-auto px-4 sm:px-8 py-2 sm:py-4 h-[38px] sm:h-14 text3 sm:text2  rounded-[5px] sm:rounded-xl bg-[#E2E2E2] dark:bg-[#101010]">
                 Learn More
               </a>
             </div>
