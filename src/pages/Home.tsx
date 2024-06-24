@@ -262,7 +262,7 @@ function Home() {
                   <a href='/projects' className='flex justify-center'>
                     <div className="w-fit">
                       <img src={_.img} />
-                      <h3 className="py-8 text-center rounded-b-3xl bg-[#E2E2E2] dark:bg-[#101010]">
+                      <h3 className=" text-[20px] sm:text-[32px] py-4 sm:py-8 text-center rounded-b-3xl bg-[#E2E2E2] dark:bg-[#101010]">
                         {_.name}
                       </h3>
                     </div>
