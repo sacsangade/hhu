@@ -216,12 +216,12 @@ function Home() {
           </div>
           <div className="relative md:w-3/5 md:pr-12">
             <img src="./img/smiling_child.png" alt="smiling child" className="w-full" />
-            <div className="relative mt-[-60px] md:mt-0  md:absolute md:-bottom-12 md:-left-80 rounded-xl p-12 w-[90%] md:w-96 bg-white dark:bg-black">
+            <div className="relative mt-[-60px] md:mt-0  md:absolute md:-bottom-12 md:-left-80 rounded-xl p-8 sm:p-12 w-[90%] md:w-96 bg-white dark:bg-black">
               <h3 className="text-[24px] sm:text-[32px]">Volunteer With Us</h3>
-              <p className="text-base sm:text2 mt-8 font-['Roboto-thin'] dark:text-[#909090]">
+              <p className="text-base sm:text2 mt-4 sm:mt-8 font-['Roboto-thin'] dark:text-[#909090]">
                 Help us on our mission to improve the lives of those in Fannin County
               </p>
-              <div className='mt-12'>
+              <div className='mt-8 sm:mt-12'>
                 <a
                   href='#contact'
                   onClick={() => setMessage('Hi I am interested in volunteering for your organization')}
