@@ -133,8 +133,8 @@ function Home() {
           </div>
         </div>
 
-        <div id='about-us' className="relative w-full py-8 md:px-20 mt-12 md:mt-0 flex flex-col md:flex-row items-center gap-20 total_donation">
-          <div className="absolute top-[512px] md:top-0 right-0">
+        <div id='about-us' className="relative w-full py-8 md:px-20 mt-12 md:mt-0 flex flex-col lg:flex-row items-center gap-20 total_donation">
+          <div className="absolute top-[512px] lg:top-0 right-0">
             <img src="./img/home_section2_effect.png" alt="effect2" className="w-3/5 float-right -mt-20 hidden dark:block" />
             <img src="./img/home_section2_effect_light.png" alt="effect2" className="w-3/5 float-right -mt-20 block dark:hidden" />
           </div>
@@ -152,7 +152,7 @@ function Home() {
               </a>
             </div>
           </div>
-          <div className="flex-1 p-8 rounded-xl z-30 bg-white dark:bg-black text-center sm:text-left">
+          <div className="sm:w-full lg: w-auto flex-1 p-8 rounded-xl z-30 bg-white dark:bg-black text-center sm:text-left">
             <div className="flex flex-col gap-4 sm:gap-0 sm:grid sm:grid-cols-2 sm:py-4 font-['Roboto-thin'] stroke-black dark:stroke-white">
               <div className="flex items-center gap-8">
                 <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -250,7 +250,7 @@ function Home() {
     640: {
       slidesPerView: 2,
     },
-    768:{
+    1024:{
       slidesPerView:3
     }
   }}
