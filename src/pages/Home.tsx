@@ -243,10 +243,6 @@ function Home() {
             <Swiper
               spaceBetween={70}
               slidesPerView={1}
-              breakpoints={ 640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        }}
               pagination={pagination}
               modules={[Pagination]}
             >
