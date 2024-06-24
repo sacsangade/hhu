@@ -30,19 +30,19 @@ function Header() {
 
   return (
     <header className='fixed top-0 left-0 w-full h-28 flex justify-between items-center px-5 lg:px-20 z-50 bg-white dark:bg-black bg-opacity-60 dark:bg-opacity-60'>
-      <div className='flex-1 items-center flex gap-2 md:block'>
+      <div className='flex-1 md:flex-auto items-center flex gap-2 md:gap-0'>
       <a href='/'>
         <h3 className='font-bold dark:text-white'>HHU</h3>
       </a>
         <div className="menu-btn md:hidden"></div>
         </div>
-      <div className="hidden md:flex items-center gap-16 dark:text-white">
+      <div className="hidden md:flex flex1 items-center md:gap-2 md:justify-center xl:gap-16 dark:text-white">
         <a href='/#about-us' className="text2 cursor-pointer">About Us</a>
         <a href='/#projects' className="text2 cursor-pointer">Projects</a>
         <a href='/#upcoming' className="text2 cursor-pointer">Upcoming</a>
         <a href='/#contact' className="text2 cursor-pointer">Contact</a>
       </div>
-      <div className="flex-1 flex items-center justify-end gap-2 md:gap-8">
+      <div className="flex-1 md:flex-auto flex items-center justify-end gap-2 lg:gap-8">
         <button onClick={handleCheckout} className="h-[38px] sm:h-14 px-4 sm:px-6 text3 sm:text2 rounded-[5px] sm:rounded-xl text-white dark:text-black bg-black dark:bg-white">
           Donation
         </button>
