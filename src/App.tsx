@@ -12,11 +12,11 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route element={<Home />} path={'/'} />
-        <Route element={<AboutUs />} path={'/aboutus'} />
-        <Route element={<Projects />} path={'/projects'} />
-        <Route element={<Upcoming />} path="{'/upcoming'} />
-        <Route element={<PaymentSuccess />} path={'/success'} />
+        <Route element={<Home />} path="/" />
+        <Route element={<AboutUs />} path="/aboutus" />
+        <Route element={<Projects />} path="/projects" />
+        <Route element={<Upcoming />} path="/upcoming" />
+        <Route element={<PaymentSuccess />} path="/success" />
       </Routes>
       <Footer />
     </>
