@@ -225,7 +225,7 @@ function Home() {
                 <a
                   href='#contact'
                   onClick={() => setMessage('Hi I am interested in volunteering for your organization')}
-                  className="inline-block h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 text2  rounded-[5px] sm:rounded-xl dark:text-black bg-[#FF3F4F]"
+                  className="inline-block h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 text3 sm:text2  rounded-[5px] sm:rounded-xl dark:text-black bg-[#FF3F4F]"
                 >
                   Sign Up
                 </a>
