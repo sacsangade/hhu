@@ -116,14 +116,14 @@ function AboutUs() {
         </div>
       </section>
 
-      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto py-16">
+      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto py-8 sm:py-16">
         <h2 className="text-center text-[30px] sm:text-[48px] leading-[1.5]">
           Our History
         </h2>
         <p className="mt-4 sm:mt-12 text-base sm:text-[20px] leading-[1.5] text-center font-['Roboto-thin'] dark:text-[#909090]">
           Founding in 1969, our foundation has been on a mission to improve the lives of those in Fannin County
         </p>
-        <div className="relative mt-8 sm:mt-20 flex items-center justify-between">
+        <div className="relative mt-12 sm:mt-20 flex items-center justify-between">
           <div className="absolute w-[98%] h-[1px] z-0 bg-[#E2E2E2] dark:bg-white" />
           <div
             onClick={()=>setHKey(2005)}
@@ -152,7 +152,7 @@ function AboutUs() {
         </div>
       </section>
 
-      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto pt-32 pb-16">
+      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto mt-12 sm:m-0 md:pt-32 md:pb-16">
         {selectedHistory && <div className="flex flex-col sm:flex-row gap-10 sm:gap-20">
           <img src={selectedHistory.img} className="sm:w-1/2" />
           <div className="">
