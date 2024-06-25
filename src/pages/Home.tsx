@@ -107,7 +107,7 @@ function Home() {
           </p>
           <div className="w-full flex flex-col sm:flex-row items-center justify-evenly gap-8 mt-20 dark:text-white">
             <div className="flex flex-col items-center">
-              <svg width="57" height="50" viewBox="0 0 57 49" fill="none" xmlns="http://www.w3.org/2000/svg" className="stroke-black dark:stroke-white">
+              <svg width="57" height="50" viewBox="0 0 57 49" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[35px] md:w-[57px] stroke-black dark:stroke-white">
                 <path d="M43.25 11.8571C43.25 10.4736 42.9773 9.10355 42.448 7.82528C41.9187 6.54704 41.1425 5.38558 40.1642 4.40724C39.1858 3.42893 38.0244 2.65287 36.7461 2.12339C35.4679 1.59391 34.0978 1.32141 32.7143 1.32141H11.6429C9.43158 1.32141 7.2764 2.01715 5.4825 3.31009C3.68865 4.60308 2.34707 6.42765 1.64781 8.52544C0.948542 10.6232 0.927054 12.8879 1.58638 14.9985C2.24571 17.1092 3.55244 18.959 5.32143 20.2857V43.4643C5.32143 44.5819 5.76545 45.654 6.55575 46.4442C7.3461 47.2344 8.418 47.6786 9.53572 47.6786H34.8214C35.9391 47.6786 37.011 47.2344 37.8014 46.4442C38.5917 45.654 39.0357 44.5819 39.0357 43.4643V20.2857C40.3467 19.3066 41.4105 18.0346 42.1421 16.5711C42.8741 15.1076 43.2534 13.4933 43.25 11.8571Z" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M20.0714 1.32141H45.3572C46.7407 1.32141 48.1108 1.59391 49.389 2.12339C50.6672 2.65287 51.8286 3.42893 52.8072 4.40724C53.7853 5.38558 54.5616 6.54704 55.0909 7.82528C55.6202 9.10355 55.8929 10.4736 55.8929 11.8571C55.8962 13.4933 55.517 15.1076 54.7849 16.5711C54.0533 18.0346 52.9896 19.3066 51.6786 20.2857V43.4643C51.6786 44.5819 51.2344 45.654 50.4442 46.4442C49.654 47.2344 48.5819 47.6786 47.4643 47.6786H17.9643" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M51.6786 20.2856H39.0357" strokeLinecap="round" strokeLinejoin="round"/>
@@ -116,7 +116,7 @@ function Home() {
               <p className="text1 mt-6 font-['Roboto-thin'] dark:text-[#909090]">Meal Provided</p>
             </div>
             <div className="flex flex-col items-center dark:text-white">
-              <svg width="58" height="50" viewBox="0 0 58 50" fill="none" xmlns="http://www.w3.org/2000/svg" className="stroke-black dark:stroke-white">
+              <svg width="58" height="50" viewBox="0 0 58 50" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[35px] md:w-[57px] stroke-black dark:stroke-white">
                 <path d="M1.14285 29.2857L29 1.42859L56.8571 29.2857" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M9.71428 20.7144V48.5715H48.2857V20.7144" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
@@ -124,7 +124,7 @@ function Home() {
               <p className="text1 mt-6 font-['Roboto-thin'] dark:text-[#909090]">Shelters Built</p>
             </div>
             <div className="flex flex-col items-center dark:text-white">
-              <svg width="40" height="50" viewBox="0 0 44 58" fill="none" xmlns="http://www.w3.org/2000/svg" className="stroke-black dark:stroke-white">
+              <svg width="40" height="50" viewBox="0 0 44 58" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[35px] md:w-[57px] stroke-black dark:stroke-white">
                 <path d="M43.4286 14H30.5714V1.14282H13.4286V14H0.571411V31.1428H13.4286V56.8571H30.5714V31.1428H43.4286V14Z" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
               <h3 className="font-medium mt-6">9,422</h3>
