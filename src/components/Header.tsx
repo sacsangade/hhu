@@ -1,9 +1,11 @@
+import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import getStripe, {PRICE_ID} from '../lib/getStripe';
 
-function Header() {
-  const location = useLocation()
 
+function Header() {
+  const location = useLocation();
+const [menustate, setMenustate] = useState(false);
   const changeTheme = () => {
     if (localStorage.getItem('color-theme') === 'light') {
       localStorage.setItem('color-theme', 'dark');
@@ -27,16 +29,18 @@ function Header() {
     });
     console.warn(error.message);
   }
-
+ async function handleMenuOpen() {
+   setMenustate(true);
+ }
   return (
     <header className='fixed top-0 left-0 w-full h-28 flex justify-between items-center px-5 lg:px-20 z-50 bg-white dark:bg-black bg-opacity-60 dark:bg-opacity-60'>
       <div className='flex-1 md:flex-auto items-center flex gap-2 md:gap-0'>
       <a href='/'>
         <h3 className='font-bold dark:text-white'>HHU</h3>
       </a>
-        <div className="menu-btn md:hidden"></div>
+        <div onClick={handleMenuOpen} className="menu-btn md:hidden"></div>
         </div>
-      <div className="left-nav bg-black md:bg-transparent fixed md:relative top-0 bottom-0 left-0 right-0 px-[40px] md:px-0 py-[80px] md:py-0 flex flex1 md:items-center flex-col md:flex-row gap-[30px] md:gap-[2rem] md:justify-center lg:gap-[4rem] xl:gap-16 dark:text-white">
+      <div className={`left-nav bg-black md:bg-transparent fixed md:relative top-0 bottom-0 left-0 right-0 px-[40px] md:px-0 py-[80px] md:py-0 flex flex1 md:items-center flex-col md:flex-row gap-[30px] md:gap-[2rem] md:justify-center lg:gap-[4rem] xl:gap-16 dark:text-white ${menustate ? 'open' : ''}`}>
         <div className="close md:hidden">X</div>
         <a href='/#about-us' className="text2 cursor-pointer">About Us</a>
         <a href='/#projects' className="text2 cursor-pointer">Projects</a>
