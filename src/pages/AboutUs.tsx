@@ -202,15 +202,27 @@ function AboutUs() {
       </section>
 
       <section className="w-full max-w-screen-2xl px-8 mx-auto pt-32 pb-16">
-        <div className="w-full py-20 gap-20">
-          <h2 className="w-full">Meet Our Team</h2>
-          <p className="text1 mt-8 w-full max-w-3xl font-['Roboto-thin'] dark:text-[#909090]">
+        <div className="w-full sm:py-20 gap-20">
+          <h2 className="w-full text-[30px] sm:text-[48px] leading-[1.5]">Meet Our Team</h2>
+          <p className="text-base sm:text-[20px] leading-[1.5] mt-4sm:mt-8 w-full max-w-3xl font-['Roboto-thin'] dark:text-[#909090]">
             Meet the team that is responsible for HHU. Our members are committed to creating a future where humanity can thrive and prosper.
           </p>
-          <div className='mt-28 w-full'>
+          <div className='mt-8 sm:mt-28 w-full'>
             <Swiper
               spaceBetween={70}
               slidesPerView={3}
+               breakpoints={{
+    0: {
+      slidesPerView: 1,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    1024:{
+      slidesPerView:3
+    }
+  }}
+         
               pagination={pagination}
               modules={[Pagination]}
             >
@@ -247,14 +259,25 @@ function AboutUs() {
 
       <section className="w-full max-w-screen-2xl px-8 mx-auto py-16">
         <div className="w-full gap-20">
-          <h2 className="w-full">Our Sponsors</h2>
-          <p className="text1 mt-8 w-full max-w-3xl dark:font-['Roboto-thin'] dark:text-[#909090]">
+          <h2 className="w-full text-[30px] sm:text-[48px] leading-[1.5]">Our Sponsors</h2>
+          <p className="text-base sm:text-[20px] leading-[1.5] mt-4 sm:mt-8 w-full max-w-3xl dark:font-['Roboto-thin'] dark:text-[#909090]">
             Meet the team that is responsible for HHU.
           </p>
-          <div className='my-16'>
+          <div className='mt-8 sm:my-16'>
             <Swiper
               spaceBetween={40}
               slidesPerView={4}
+              breakpoints={{
+    0: {
+      slidesPerView: 1,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    1024:{
+      slidesPerView:4
+    }
+  }}
               autoplay={{
                 delay: 1000,
                 disableOnInteraction: false,
