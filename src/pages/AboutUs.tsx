@@ -257,7 +257,7 @@ function AboutUs() {
         </div>
       </section>
 
-      <section className="w-full max-w-screen-2xl px-8 mx-auto mt-12 md:py-16">
+      <section className="w-full max-w-screen-2xl px-8 mx-auto mt-12 md:mt-0 py-16">
         <div className="w-full gap-20">
           <h2 className="w-full text-[30px] sm:text-[48px] leading-[1.5]">Our Sponsors</h2>
           <p className="text-base sm:text-[20px] leading-[1.5] mt-4 sm:mt-8 w-full max-w-3xl dark:font-['Roboto-thin'] dark:text-[#909090]">
