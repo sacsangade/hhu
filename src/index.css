@@ -51,6 +51,12 @@ h3 {
 .text2 {
   font-size: 20px;
 }
+.left-nav
+{
+  width:250px;
+  margin-left:-250px;
+      transition: all 0.7s ease-in-out;
+}
 .close
 {
   position: absolute;
