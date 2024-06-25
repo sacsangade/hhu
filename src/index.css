@@ -51,6 +51,13 @@ h3 {
 .text2 {
   font-size: 20px;
 }
+.close
+{
+  position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 24px;
+}
 .menu-btn
 {
   width: 20px;
