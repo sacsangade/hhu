@@ -80,15 +80,15 @@ function AboutUs() {
 
   return (
     <div className="page bg-white text-black dark:bg-black dark:text-white">
-      <section className="w-full max-w-screen-2xl px-8 mx-auto py-24">
-        <div className="flex items-center gap-20">
+      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto sm:py-24">
+        <div className="flex flex-col md:flex-row items-center gap-10 md:gap-20">
           <div className="">
-            <h2>Helping our community one step at a time.</h2>
-            <p className="mt-12 text1 font-['Roboto-thin'] dark:text-[#909090]">
+            <h2 className="text-[30px] sm:text-[48px] leading-[1.5]">Helping our community one step at a time.</h2>
+            <p className="mt-4 sm:mt-12 text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">
               Help us on our mission to improve the lives of those in Fannin County
             </p>
           </div>
-          <div className='h-[486px]'>
+          <div className='md:h-[486px]'>
             <Swiper
               direction={'vertical'}
               pagination={{
@@ -116,14 +116,14 @@ function AboutUs() {
         </div>
       </section>
 
-      <section className="w-full max-w-screen-2xl  px-8 mx-auto py-16">
-        <h2 className="text-center">
+      <section className="w-full max-w-screen-2xl  px-4 sm:px-8 mx-auto py-16">
+        <h2 className="text-center text-[30px] sm:text-[48px] leading-[1.5]">
           Our History
         </h2>
-        <p className="mt-12 text1 text-center font-['Roboto-thin'] dark:text-[#909090]">
+        <p className="mt-4 sm:mt-12 text-base sm:text-[20px] leading-[1.5] text-center font-['Roboto-thin'] dark:text-[#909090]">
           Founding in 1969, our foundation has been on a mission to improve the lives of those in Fannin County
         </p>
-        <div className="relative mt-20 flex items-center justify-between">
+        <div className="relative mt-8 sm:mt-20 flex items-center justify-between">
           <div className="absolute w-[98%] h-[1px] z-0 bg-[#E2E2E2] dark:bg-white" />
           <div
             onClick={()=>setHKey(2005)}
@@ -159,13 +159,13 @@ function AboutUs() {
             <h2 className="">
               {selectedHistory.title}
             </h2>
-            <p className="mt-20 text1 font-['Roboto-thin'] dark:text-[#909090]">
+            <p className="mt-4 sm:mt-20 text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">
               {selectedHistory.desc1}
             </p>
-            <p className="mt-8 text1 font-['Roboto-thin'] dark:text-[#909090]">
+            <p className="mt-2 sm:mt-8 text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">
               {selectedHistory.desc2}
             </p>
-            <div className="mt-20 stroke-black dark:stroke-white">
+            <div className="mt-4sm:mt-20 stroke-black dark:stroke-white">
               <div className="flex items-center gap-8">
                 <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
@@ -183,28 +183,28 @@ function AboutUs() {
         </div>}
       </section>
 
-      <section className="w-full max-w-screen-2xl px-8 mx-auto pt-32 pb-16">
-        <h2 className="text-center">
+      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto pt-32 pb-16">
+        <h2 className="text-center text-[30px] sm:text-[48px] leading-[1.5]">
           Mission and Vision
         </h2>
-        <div className="mt-20 flex gap-20">
+        <div className="mt-4 sm:mt-20 flex flex-col md:flex-row md:gap-20">
           <div className="">
             <img src="./img/aboutus_3.png" className="" />  
-            <h3 className="mt-16 text-center">
+            <h3 className="mt-8 sm:mt-16 text-center text-[24px] sm:text-[32px] leading-[1.5]">
               Our Mission and Vision
             </h3>
-            <p className="mt-8 text1 font-['Roboto-thin'] dark:text-[#909090]">
+            <p className="mt-4 sm:mt-8 text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos consectetur, adipisci velit, sed quia non numquam eius consectetur, adipisci velit, sed.
             </p>
           </div>
-          <img src="./img/aboutus_4.png" className="w-3/7" />
+          <img src="./img/aboutus_4.png" className="sm:w-3/7" />
         </div>
       </section>
 
       <section className="w-full max-w-screen-2xl px-8 mx-auto pt-32 pb-16">
         <div className="w-full sm:py-20 gap-20">
           <h2 className="w-full text-[30px] sm:text-[48px] leading-[1.5]">Meet Our Team</h2>
-          <p className="text-base sm:text-[20px] leading-[1.5] mt-4sm:mt-8 w-full max-w-3xl font-['Roboto-thin'] dark:text-[#909090]">
+          <p className="text-base sm:text-[20px] leading-[1.5] mt-4 sm:mt-8 w-full max-w-3xl font-['Roboto-thin'] dark:text-[#909090]">
             Meet the team that is responsible for HHU. Our members are committed to creating a future where humanity can thrive and prosper.
           </p>
           <div className='mt-8 sm:mt-28 w-full'>
@@ -230,7 +230,7 @@ function AboutUs() {
                 <SwiperSlide key={_.id}>
                   <div className='flex justify-center'>
                     <div className="w-fit">
-                      <img src={_.img} className='h-96' />
+                      <img src={_.img} className='md:h-96' />
                       <div className='pt-8 rounded-b-3xl'>
                         <p className="text2 font-['Roboto-thin'] text-black dark:text-[#909090]">
                           {_.name}
