@@ -153,7 +153,7 @@ function AboutUs() {
       </section>
 
       <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto mt-12 sm:m-0 md:pt-32 md:pb-16">
-        {selectedHistory && <div className="flex flex-col sm:flex-row gap-10 sm:gap-20">
+        {selectedHistory && <div className="flex flex-col md:flex-row gap-10 sm:gap-20">
           <img src={selectedHistory.img} className="sm:w-1/2" />
           <div className="">
             <h2 className="text-[30px] sm:text-[48px] leading-[1.5]">
@@ -197,7 +197,7 @@ function AboutUs() {
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos consectetur, adipisci velit, sed quia non numquam eius consectetur, adipisci velit, sed.
             </p>
           </div>
-          <img src="./img/aboutus_4.png" className="mt-8 sm:mt-0 sm:w-3/7" />
+          <img src="./img/aboutus_4.png" className="mt-8 mt:mt-0 sm:w-3/7" />
         </div>
       </section>
 
@@ -218,7 +218,7 @@ function AboutUs() {
     640: {
       slidesPerView: 2,
     },
-    1024:{
+    768:{
       slidesPerView:3
     }
   }}
@@ -269,12 +269,12 @@ function AboutUs() {
               slidesPerView={4}
               breakpoints={{
     0: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     640: {
       slidesPerView: 2,
-    },
-    1024:{
+    },         
+    768:{
       slidesPerView:4
     }
   }}
