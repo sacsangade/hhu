@@ -153,10 +153,10 @@ function AboutUs() {
       </section>
 
       <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto pt-32 pb-16">
-        {selectedHistory && <div className="flex gap-20">
-          <img src={selectedHistory.img} className="w-1/2" />
+        {selectedHistory && <div className="flex flex-col sm:flex-row gap-10 sm:gap-20">
+          <img src={selectedHistory.img} className="sm:w-1/2" />
           <div className="">
-            <h2 className="">
+            <h2 className="text-[30px] sm:text-[48px] leading-[1.5]">
               {selectedHistory.title}
             </h2>
             <p className="mt-4 sm:mt-20 text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">
@@ -166,7 +166,7 @@ function AboutUs() {
               {selectedHistory.desc2}
             </p>
             <div className="mt-4sm:mt-20 stroke-black dark:stroke-white">
-              <div className="flex items-center gap-8">
+              <div className="flex  items-center gap-8">
                 <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
