@@ -124,7 +124,7 @@ function Home() {
               <p className="text1 mt-6 font-['Roboto-thin'] dark:text-[#909090]">Shelters Built</p>
             </div>
             <div className="flex flex-col items-center dark:text-white">
-              <svg width="40" height="50" viewBox="0 0 44 58" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[35px] md:w-[57px] stroke-black dark:stroke-white">
+              <svg width="40" height="50" viewBox="0 0 44 58" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[28px] md:w-[57px] stroke-black dark:stroke-white">
                 <path d="M43.4286 14H30.5714V1.14282H13.4286V14H0.571411V31.1428H13.4286V56.8571H30.5714V31.1428H43.4286V14Z" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
               <h3 className="font-medium mt-6">9,422</h3>
@@ -152,7 +152,7 @@ function Home() {
               </a>
             </div>
           </div>
-          <div className="sm:w-full lg: w-auto flex-1 p-8 rounded-xl z-30 bg-white dark:bg-black text-center sm:text-left">
+          <div className="w-full lg:w-auto flex-1 p-8 rounded-xl z-30 bg-white dark:bg-black text-center sm:text-left">
             <div className="flex flex-col gap-4 sm:gap-0 sm:grid sm:grid-cols-2 sm:py-4 font-['Roboto-thin'] stroke-black dark:stroke-white">
               <div className="flex items-center gap-8">
                 <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
