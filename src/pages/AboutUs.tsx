@@ -190,14 +190,14 @@ function AboutUs() {
         <div className="mt-4 sm:mt-20 flex flex-col md:flex-row md:gap-20">
           <div className="">
             <img src="./img/aboutus_3.png" className="" />  
-            <h3 className="mt-8 sm:mt-16 text-center text-[24px] sm:text-[32px] leading-[1.5]">
+            <h3 className="mt-8 sm:mt-16 sm:text-center text-[20px] sm:text-[32px] leading-[1.5]">
               Our Mission and Vision
             </h3>
             <p className="mt-4 sm:mt-8 text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos consectetur, adipisci velit, sed quia non numquam eius consectetur, adipisci velit, sed.
             </p>
           </div>
-          <img src="./img/aboutus_4.png" className="sm:w-3/7" />
+          <img src="./img/aboutus_4.png" className="mt-8 sm:mt-0 sm:w-3/7" />
         </div>
       </section>
 
