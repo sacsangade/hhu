@@ -32,6 +32,9 @@ const [menustate, setMenustate] = useState(false);
  async function handleMenuOpen() {
    setMenustate(true);
  }
+   async function handleMenuClose() {
+   setMenustate(false);
+ }
   return (
     <header className='fixed top-0 left-0 w-full h-28 flex justify-between items-center px-5 lg:px-20 z-50 bg-white dark:bg-black bg-opacity-60 dark:bg-opacity-60'>
       <div className='flex-1 md:flex-auto items-center flex gap-2 md:gap-0'>
@@ -40,12 +43,12 @@ const [menustate, setMenustate] = useState(false);
       </a>
         <div onClick={handleMenuOpen} className="menu-btn md:hidden"></div>
         </div>
-      <div className={`left-nav bg-black md:bg-transparent fixed md:relative top-0 bottom-0 left-0 right-0 px-[40px] md:px-0 py-[80px] md:py-0 flex flex1 md:items-center flex-col md:flex-row gap-[30px] md:gap-[2rem] md:justify-center lg:gap-[4rem] xl:gap-16 dark:text-white ${menustate ? 'open' : ''}`}>
-        <div className="close md:hidden">X</div>
-        <a href='/#about-us' className="text2 cursor-pointer">About Us</a>
-        <a href='/#projects' className="text2 cursor-pointer">Projects</a>
-        <a href='/#upcoming' className="text2 cursor-pointer">Upcoming</a>
-        <a href='/#contact' className="text2 cursor-pointer">Contact</a>
+      <div className={`w-[250px] md:w-auto ms-[-250px] md:ms-0 left-nav bg-black md:bg-transparent fixed md:relative top-0 bottom-0 left-0 right-0 px-[40px] md:px-0 py-[80px] md:py-0 flex flex1 md:items-center flex-col md:flex-row gap-[30px] md:gap-[2rem] md:justify-center lg:gap-[4rem] xl:gap-16 dark:text-white ${menustate ? 'open' : ''}`}>
+        <div onClick={handleMenuClose} className="close md:hidden">X</div>
+        <a onClick={handleMenuClose} href='/#about-us' className="text2 cursor-pointer">About Us</a>
+        <a onClick={handleMenuClose} href='/#projects' className="text2 cursor-pointer">Projects</a>
+        <a onClick={handleMenuClose} href='/#upcoming' className="text2 cursor-pointer">Upcoming</a>
+        <a onClick={handleMenuClose} href='/#contact' className="text2 cursor-pointer">Contact</a>
       </div>
       <div className="flex-1 md:flex-auto flex items-center justify-end gap-2 xl:gap-8">
         <button onClick={handleCheckout} className="h-[38px] sm:h-14 px-4 sm:px-6 text3 sm:text2 rounded-[5px] sm:rounded-xl text-white dark:text-black bg-black dark:bg-white">
