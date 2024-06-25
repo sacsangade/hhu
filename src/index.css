@@ -55,6 +55,10 @@ h3 {
 {
       transition: all 0.7s ease-in-out;
 }
+.left-nav.open
+{
+  margin-left:0px;
+}
 .close
 {
   position: absolute;
