@@ -16,7 +16,7 @@ function Projects() {
         </div>
       </section>
 
-      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto  sm:py-16">
+      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto  mt-12 sm:mt-0 sm:py-16">
         <h2 className="text-[30px] sm:text-[48px] leading-[1.5]">
           Why Is This Charity Needed?
         </h2>
