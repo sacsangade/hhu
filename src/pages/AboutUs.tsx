@@ -152,7 +152,7 @@ function AboutUs() {
         </div>
       </section>
 
-      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto mt-8 sm:m-0 md:pt-32 md:pb-16">
+      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto mt-12 sm:m-0 md:pt-32 md:pb-16">
         {selectedHistory && <div className="flex flex-col sm:flex-row gap-10 sm:gap-20">
           <img src={selectedHistory.img} className="sm:w-1/2" />
           <div className="">
@@ -165,15 +165,15 @@ function AboutUs() {
             <p className="mt-2 sm:mt-8 text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">
               {selectedHistory.desc2}
             </p>
-            <div className="mt-4 sm:mt-20 stroke-black dark:stroke-white">
-              <div className="flex  items-center gap-8">
-                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-18 sm:w-20">
+            <div className="mt-8 sm:mt-20 stroke-black dark:stroke-white">
+              <div className="flex items-center gap-4 sm:gap-8">
+                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[18px] sm:w-[20px]">
                   <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
                 <p className="text-base sm:text-[20px] leading-[1.5]">{selectedHistory.value1}</p>
               </div>
-              <div className="mt-8 sm:mt-12 flex items-center gap-8">
-                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-18 sm:w-20">
+              <div className="mt-6 sm:mt-12 flex items-center gap-4 sm:gap-8">
+                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[18px] sm:w-[20px]">
                   <path d="M0.714294 11.2144L4.61429 16.2286C4.74589 16.3996 4.91452 16.5386 5.10751 16.6351C5.30049 16.7316 5.51284 16.7831 5.72858 16.7857C5.94085 16.7883 6.15101 16.7433 6.34377 16.6544C6.53651 16.5654 6.70701 16.4346 6.84287 16.2714L19.2857 1.21436" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
                 <p className="text-base sm:text-[20px] leading-[1.5]">{selectedHistory.value2}</p>
@@ -183,7 +183,7 @@ function AboutUs() {
         </div>}
       </section>
 
-      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto mt-8 md:pt-32 md:pb-16">
+      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto mt-12 md:pt-32 md:pb-16">
         <h2 className="text-center text-[30px] sm:text-[48px] leading-[1.5]">
           Mission and Vision
         </h2>
@@ -201,7 +201,7 @@ function AboutUs() {
         </div>
       </section>
 
-      <section className="w-full max-w-screen-2xl px-8 mx-auto  mt-8 md:pt-32 md:pb-16">
+      <section className="w-full max-w-screen-2xl px-8 mx-auto  mt-12 md:pt-32 md:pb-16">
         <div className="w-full sm:py-20 gap-20">
           <h2 className="w-full text-[30px] sm:text-[48px] leading-[1.5]">Meet Our Team</h2>
           <p className="text-base sm:text-[20px] leading-[1.5] mt-4 sm:mt-8 w-full max-w-3xl font-['Roboto-thin'] dark:text-[#909090]">
@@ -257,7 +257,7 @@ function AboutUs() {
         </div>
       </section>
 
-      <section className="w-full max-w-screen-2xl px-8 mx-auto mt-8 md:py-16">
+      <section className="w-full max-w-screen-2xl px-8 mx-auto mt-12 md:py-16">
         <div className="w-full gap-20">
           <h2 className="w-full text-[30px] sm:text-[48px] leading-[1.5]">Our Sponsors</h2>
           <p className="text-base sm:text-[20px] leading-[1.5] mt-4 sm:mt-8 w-full max-w-3xl dark:font-['Roboto-thin'] dark:text-[#909090]">
