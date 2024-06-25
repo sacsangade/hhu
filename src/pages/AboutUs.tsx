@@ -230,7 +230,7 @@ function AboutUs() {
                 <SwiperSlide key={_.id}>
                   <div className='flex justify-center'>
                     <div className="w-fit">
-                      <img src={_.img} className='md:h-96' />
+                      <img src={_.img} className='xl:h-96' />
                       <div className='pt-8 rounded-b-3xl'>
                         <p className="text2 font-['Roboto-thin'] text-black dark:text-[#909090]">
                           {_.name}
