@@ -88,7 +88,7 @@ function AboutUs() {
               Help us on our mission to improve the lives of those in Fannin County
             </p>
           </div>
-          <div className='h-[486px]'>
+          <div className='h-[310px] sm:h-[486px]'>
             <Swiper
               direction={'vertical'}
               pagination={{
@@ -116,7 +116,7 @@ function AboutUs() {
         </div>
       </section>
 
-      <section className="w-full max-w-screen-2xl  px-4 sm:px-8 mx-auto py-16">
+      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto py-16">
         <h2 className="text-center text-[30px] sm:text-[48px] leading-[1.5]">
           Our History
         </h2>
@@ -127,32 +127,32 @@ function AboutUs() {
           <div className="absolute w-[98%] h-[1px] z-0 bg-[#E2E2E2] dark:bg-white" />
           <div
             onClick={()=>setHKey(2005)}
-            className={`text1 py-4 px-8 z-10 cursor-pointer ${hKey == 2005 ? 'text-white dark:text-black bg-black dark:bg-white' : 'dark:text-[#909090] bg-[#E2E2E2] dark:bg-[#101010]'}`}
+            className={`text-[12px] sm:text-[24px] py-2 sm:py-4 px-4 sm:px-8 z-10 cursor-pointer ${hKey == 2005 ? 'text-white dark:text-black bg-black dark:bg-white' : 'dark:text-[#909090] bg-[#E2E2E2] dark:bg-[#101010]'}`}
           >
             2005
           </div>
           <div
             onClick={()=>setHKey(2010)}
-            className={`text1 py-4 px-8 z-10 cursor-pointer ${hKey == 2010 ? 'text-white dark:text-black bg-black dark:bg-white' : 'dark:text-[#909090] bg-[#E2E2E2] dark:bg-[#101010]'}`}
+            className={`text-[12px] sm:text-[24px] py-2 sm:py-4 px-4 sm:px-8  z-10 cursor-pointer ${hKey == 2010 ? 'text-white dark:text-black bg-black dark:bg-white' : 'dark:text-[#909090] bg-[#E2E2E2] dark:bg-[#101010]'}`}
           >
             2010
           </div>
           <div
             onClick={()=>setHKey(2015)}
-            className={`text1 py-4 px-8 z-10 cursor-pointer ${hKey == 2015 ? 'text-white dark:text-black bg-black dark:bg-white' : 'dark:text-[#909090] bg-[#E2E2E2] dark:bg-[#101010]'}`}
+            className={`text-[12px] sm:text-[24px] py-2 sm:py-4 px-4 sm:px-8  z-10 cursor-pointer ${hKey == 2015 ? 'text-white dark:text-black bg-black dark:bg-white' : 'dark:text-[#909090] bg-[#E2E2E2] dark:bg-[#101010]'}`}
           >
             2015
           </div>
           <div
             onClick={()=>setHKey(2024)}
-            className={`text1 py-4 px-8 z-10 cursor-pointer ${hKey == 2024 ? 'text-white dark:text-black bg-black dark:bg-white' : 'dark:text-[#909090] bg-[#E2E2E2] dark:bg-[#101010]'}`}
+            className={`text-[12px] sm:text-[24px] py-2 sm:py-4 px-4 sm:px-8  z-10 cursor-pointer ${hKey == 2024 ? 'text-white dark:text-black bg-black dark:bg-white' : 'dark:text-[#909090] bg-[#E2E2E2] dark:bg-[#101010]'}`}
           >
             2024
           </div>
         </div>
       </section>
 
-      <section className="w-full max-w-screen-2xl px-8 mx-auto pt-32 pb-16">
+      <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto pt-32 pb-16">
         {selectedHistory && <div className="flex gap-20">
           <img src={selectedHistory.img} className="w-1/2" />
           <div className="">
