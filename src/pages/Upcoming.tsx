@@ -4,17 +4,17 @@ function Upcoming() {
   return (
     <div className="page bg-white text-black dark:bg-black dark:text-white">
       <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto sm:py-16">
-        <div className="relative flex justify-center mt-12">
+        <div className="relative flex flex-col sm:flex-row justify-center mt-12">
           <img src="./img/upcoming_1.png" className="w-full max-w-3xl mx-auto" />
-          <div className="absolute -bottom-2 sm:-bottom-20 w-full max-w-md rounded-2xl py-6 px-12 bg-[#E2E2E2] dark:bg-[#101010]">
+          <div className="relative sm:absolute mt-[-30px] sm:mt-0 sm:-bottom-20 w-full max-w-md rounded-2xl py-6 px-12 bg-[#E2E2E2] dark:bg-[#101010]">
             <h2 className="text-center text-[30px] sm:text-[48px] leading-[1.5]">Education for poor children</h2>
           </div>
         </div>
       </section>
 
       <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto mt-12 sm:mt-0 sm:py-16">
-        <div className="flex flex-col md:flex-row sm:justify-between gap-4 sm:gap-0 items-center">
-          <div className="flex items-center gap-8">
+        <div className="flex flex-col md:flex-row sm:justify-between gap-4 sm:gap-0 sm:items-center">
+          <div className="flex sm:items-center gap-8">
             <div className='stroke-black dark:stroke-white'>
               <svg width="33" height="31" viewBox="0 0 33 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M27.7549 1.24104C30.055 0.628215 32.1755 2.63993 31.5295 4.82206L26.2308 22.7214C25.9422 23.6963 25.1391 24.4582 24.1116 24.732L5.24474 29.759C2.94466 30.3716 0.824205 28.3601 1.47016 26.1779L6.76878 8.27857C7.05738 7.30365 7.86047 6.54174 8.8881 6.26794L27.7549 1.24104Z" stroke-linecap="round" stroke-linejoin="round"/>
