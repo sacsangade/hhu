@@ -88,7 +88,7 @@ function AboutUs() {
               Help us on our mission to improve the lives of those in Fannin County
             </p>
           </div>
-          <div className='md:h-[486px]'>
+          <div className='h-[486px]'>
             <Swiper
               direction={'vertical'}
               pagination={{
