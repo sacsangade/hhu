@@ -36,7 +36,7 @@ function Header() {
       </a>
         <div className="menu-btn md:hidden"></div>
         </div>
-      <div className="fixed md:relative md:flex flex1 items-center md:gap-[2rem] md:justify-center lg:gap-[4rem] xl:gap-16 dark:text-white">
+      <div className="fixed md:relative top-0 bottom-0 left-0 right-0 px-[30px] md:px-0 py-[60px] md:py-0 flex flex1 items-center md:gap-[2rem] md:justify-center lg:gap-[4rem] xl:gap-16 dark:text-white">
         <a href='/#about-us' className="text2 cursor-pointer">About Us</a>
         <a href='/#projects' className="text2 cursor-pointer">Projects</a>
         <a href='/#upcoming' className="text2 cursor-pointer">Upcoming</a>
