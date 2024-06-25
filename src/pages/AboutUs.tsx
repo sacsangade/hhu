@@ -82,7 +82,7 @@ function AboutUs() {
     <div className="page bg-white text-black dark:bg-black dark:text-white">
       <section className="w-full max-w-screen-2xl px-4 sm:px-8 mx-auto sm:py-24">
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-20">
-          <div className="">
+          <div className="md:w-1/2 xl:w-auto">
             <h2 className="text-[30px] sm:text-[48px] leading-[1.5]">Helping our community one step at a time.</h2>
             <p className="mt-4 sm:mt-12 text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">
               Help us on our mission to improve the lives of those in Fannin County
@@ -197,7 +197,7 @@ function AboutUs() {
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos consectetur, adipisci velit, sed quia non numquam eius consectetur, adipisci velit, sed.
             </p>
           </div>
-          <img src="./img/aboutus_4.png" className="mt-8 mt:mt-0 sm:w-3/7" />
+          <img src="./img/aboutus_4.png" className="mt-8 mt:mt-0 md:w-1/2 xl:w-3/7" />
         </div>
       </section>
 
