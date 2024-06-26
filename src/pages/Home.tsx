@@ -78,7 +78,7 @@ function Home() {
     setMessage('Hi I am interested in volunteering for your organization"');
   }
    
-const handleform = (e) =>{
+const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   e.preventDefault();
 }
   return (
