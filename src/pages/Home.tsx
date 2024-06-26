@@ -94,6 +94,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
     {
        setSnameerror(false);
     }
+    else
     {
     setSnameerror(true);
     }
@@ -101,6 +102,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
     {
        setSepvalueerror(false);
     }
+    else
     {
     setSepvalueerror(true);
     }
@@ -108,6 +110,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
     {
        setSmessageerror(false);
     }
+    else
     {
     setSmessageerror(true);
     }
@@ -381,7 +384,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
             </div>
             <div className="relative mt-4 sm:mt-8">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Message</label>
-              <textarea  name="s-message" onChange={(e) => setSmessage(e.target.value)} value={message} className="w-full h-28 p-4 rounded-lg mt-2 bg-transparent focus:outline-none border dark:border-[#101010]" />
+              <textarea  name="s-message" value={smessage} onChange={(e) => setSmessage(e.target.value)}  className="w-full h-28 p-4 rounded-lg mt-2 bg-transparent focus:outline-none border dark:border-[#101010]" />
                {smessageerror ? <div className="c-error">* Field required!</div>: ""}
             </div>
             <button type="submit" className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white">
