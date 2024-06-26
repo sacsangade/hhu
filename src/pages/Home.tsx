@@ -92,7 +92,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   if(sname && sepvalue && smessage)
   {
     emailjs
-      .sendForm('service_ws21xtl', 'template_mcvpuol', form.current, {
+      .sendForm('service_ws21xtl', 'template_mcvpuol', form.current : any, {
         publicKey: '-Rm081AKzibsOHEEV',
       })
       .then(
