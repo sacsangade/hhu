@@ -54,8 +54,8 @@ function Home() {
    const [sepvalue, setSepvalue] = useState('');
    const [smessage, setSmessage] = useState('');
  const [snameerror, setSnameerror] = useState(false);
-  const [sepvalueerror, setSnameerror] = useState(false);
-  const [smessageerror, setSnameerror] = useState(false);
+  const [sepvalueerror, setSepvalueerror] = useState(false);
+  const [smessageerror, setSmessageerror] = useState(false);
   const pagination = {
     clickable: true,
     renderBullet: function (index: number, className: string) {
