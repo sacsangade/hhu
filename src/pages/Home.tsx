@@ -87,11 +87,11 @@ function Home() {
    
 const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   e.preventDefault();
-  const currentForm = form.current:any;
+  const currentForm = form.current;
   if(sname && sepvalue && smessage)
   {
       emailjs
-      .sendForm('service_ws21xtl', 'template_mcvpuol', currentForm, {
+      .sendForm('service_ws21xtl', 'template_mcvpuol', currentForm: : React.FormEvent<HTMLFormElement>, {
         publicKey: '-Rm081AKzibsOHEEV',
       })
       .then(
