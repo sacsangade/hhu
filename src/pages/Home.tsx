@@ -407,8 +407,8 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
               <textarea  name="s-message" value={smessage} onChange={(e) => setSmessage(e.target.value)}  className="w-full h-28 p-4 rounded-lg mt-2 bg-transparent focus:outline-none border dark:border-[#101010]" />
                {smessageerror ? <div className="c-error">* Field required!</div>: ""}
             </div>
-            <button type="submit" className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white" {isloading? "" : "disbled"}>
-              {isloading? "Send Message": "noe"}
+            <button type="submit" className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white"  disabled={isloading}>
+              {isloading ? "Loading": "Send Message"}
             </button>
               </form>
           </div>
