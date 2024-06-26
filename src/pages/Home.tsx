@@ -80,6 +80,14 @@ function Home() {
    
 const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   e.preventDefault();
+  if()
+  {
+    
+  }
+  else
+  {
+    setSnameerror(true);
+  }
 }
   return (
     <div className="home bg-white text-black dark:bg-black dark:text-white">
@@ -340,7 +348,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
             <div className="mt-4 sm:mt-12">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Name</label>
               <input type="text" name="s-name" value={sname} className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" onChange={(e)=>setSname(e.target.value)}/>
-              {snameerror ? "": "* required filed"}
+              {snameerror ? "* required filed": ""}
             </div>
             <div className="mt-4 sm:mt-8">
               <label  className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Email / Phone</label>
