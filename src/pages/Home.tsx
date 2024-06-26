@@ -76,7 +76,13 @@ function Home() {
   const signup = () => {
     setMessage('Hi I am interested in volunteering for your organization"');
   }
-
+    const [snameerror, setSnameerror] = useState(false);
+ function formsubmit(formData) {
+    const name = formData.get("s-name");
+     
+    const epvalue = formData.get("s-epvalue");
+    const message = formData.get("s-message");
+  }
   return (
     <div className="home bg-white text-black dark:bg-black dark:text-white">
       <section className="relative section1 flex items-center justify-center">
@@ -332,21 +338,24 @@ function Home() {
           </div>
           <div className='w-full lg:w-2/5'>
             <h2 className="font-bold mt-8 sm:mt-12  sm:mt-0 text-[30px] md:text-[48px] leading-[1.5]">Contact Us</h2>
+            <form action={formsubmit}>
             <div className="mt-4 sm:mt-12">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Name</label>
-              <input className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" />
+              <input type="text" name="s-name" className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none"/>
+              {snameerror?"":"<div class='custom-error'>Field required !</div>"}
             </div>
             <div className="mt-4 sm:mt-8">
-              <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Email / Phone</label>
-              <input className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" />
+              <label  className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Email / Phone</label>
+              <input type="text" name="s-epvalue" className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none"/>
             </div>
             <div className="mt-4 sm:mt-8">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Message</label>
-              <textarea onChange={(e) => setMessage(e.target.value)} value={message} className="w-full h-28 p-4 rounded-lg mt-2 bg-transparent focus:outline-none border dark:border-[#101010]" />
+              <textarea  name="s-message" onChange={(e) => setMessage(e.target.value)} value={message} className="w-full h-28 p-4 rounded-lg mt-2 bg-transparent focus:outline-none border dark:border-[#101010]" />
             </div>
             <button className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white">
               Send Message
             </button>
+              </form>
           </div>
         </div>
       </section>
