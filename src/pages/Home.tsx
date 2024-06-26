@@ -87,7 +87,7 @@ function Home() {
    
 const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   e.preventDefault();
-  const currentForm = form.current;
+  const currentForm = form.current:any;
   if(sname && sepvalue && smessage)
   {
       emailjs
