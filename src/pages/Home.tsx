@@ -57,6 +57,7 @@ function Home() {
    const [sepvalue, setSepvalue] = useState('');
    const [smessage, setSmessage] = useState('');
    const [isloading, setIsloading] = useState(false);
+  const [formsuccess, setFormsuccess] = useState(false);
  const [snameerror, setSnameerror] = useState(false);
   const [sepvalueerror, setSepvalueerror] = useState(false);
   const [smessageerror, setSmessageerror] = useState(false);
@@ -100,7 +101,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
       .then(
         () => {
           setIsloading(false);
-          console.log('SUCCESS!');
+          setFormsuccess(true);
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -409,7 +410,8 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
             </div>
             <button type="submit" className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white"  disabled={isloading}>
              Send Message
-            </button> {isloading ? "Loading...": ""}
+            </button> {isloading ? <span className="loader"></span>: ""}
+              {formsuccess? <div className="success-box">Message send successfully.</div> : ""}
               </form>
           </div>
         </div>
