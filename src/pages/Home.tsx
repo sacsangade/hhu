@@ -88,20 +88,16 @@ function Home() {
 const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   e.preventDefault();
   const currentForm = form.current;
+   if (currentForm == null) return;
+  
   if(sname && sepvalue && smessage)
   {
-      emailjs
-      .sendForm('service_ws21xtl', 'template_mcvpuol', currentForm: : React.FormEvent<HTMLFormElement>, {
-        publicKey: '-Rm081AKzibsOHEEV',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
+     emailjs.sendForm('service_ws21xtl', 'template_mcvpuol', currentForm, '-Rm081AKzibsOHEEV')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   }
   else
   {
