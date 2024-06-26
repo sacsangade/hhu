@@ -375,7 +375,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
           </div>
           <div className='w-full lg:w-2/5'>
             <h2 className="font-bold mt-8 sm:mt-12  sm:mt-0 text-[30px] md:text-[48px] leading-[1.5]">Contact Us</h2>
-            <form ref={form} onSubmit={handleform}>
+            <form onSubmit={handleform}>
             <div className="relative mt-4 sm:mt-12">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Name</label>
               <input type="text" name="s-name" value={sname} className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" onChange={(e)=>setSname(e.target.value)}/>
