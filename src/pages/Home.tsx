@@ -340,7 +340,7 @@ const handleform = (e) =>{
             <div className="mt-4 sm:mt-12">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Name</label>
               <input type="text" name="s-name" value={sname} className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" onChange={(e)=>setSname(e.target.value)} required/>
-              {snameerror ? "" : "<div class='custom-error'>Field required !</div>" }
+              
             </div>
             <div className="mt-4 sm:mt-8">
               <label  className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Email / Phone</label>
