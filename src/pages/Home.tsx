@@ -51,7 +51,7 @@ const events = [
 ];
 
 function Home() {
-  const form = useRef();
+  const form = useRef(null);
   const [message, setMessage] = useState('');
   const [sname, setSname] = useState('');
    const [sepvalue, setSepvalue] = useState('');
@@ -92,7 +92,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   if(sname && sepvalue && smessage)
   {
     emailjs
-      .sendForm('service_ws21xtl', 'template_mcvpuol', form.current : any, {
+      .sendForm('service_ws21xtl', 'template_mcvpuol', form.current, {
         publicKey: '-Rm081AKzibsOHEEV',
       })
       .then(
