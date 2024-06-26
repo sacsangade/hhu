@@ -77,7 +77,7 @@ function Home() {
     setMessage('Hi I am interested in volunteering for your organization"');
   }
    
- function formsubmit(formData) {
+ function formsubmit(formData: any) {
     const name = formData.get("s-name");
     const epvalue = formData.get("s-epvalue");
     const message = formData.get("s-message");
