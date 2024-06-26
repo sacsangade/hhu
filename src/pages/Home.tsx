@@ -51,7 +51,11 @@ const events = [
 function Home() {
   const [message, setMessage] = useState('');
   const [sname, setSname] = useState('');
+   const [sepvalue, setSepvalue] = useState('');
+   const [smessage, setSmessage] = useState('');
  const [snameerror, setSnameerror] = useState(false);
+  const [sepvalueerror, setSnameerror] = useState(false);
+  const [smessageerror, setSnameerror] = useState(false);
   const pagination = {
     clickable: true,
     renderBullet: function (index: number, className: string) {
@@ -80,13 +84,33 @@ function Home() {
    
 const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   e.preventDefault();
-  if(sname)
+  if(sname && sepvalue && smessage)
   {
     
   }
   else
   {
+    if(sname)
+    {
+       setSnameerror(false);
+    }
+    {
     setSnameerror(true);
+    }
+     if(sepvalue)
+    {
+       setSepvalueerror(false);
+    }
+    {
+    setSepvalueerror(true);
+    }
+    if(smessage)
+    {
+       setSmessageerror(false);
+    }
+    {
+    setSmessageerror(true);
+    }
   }
 }
   return (
@@ -345,18 +369,20 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
           <div className='w-full lg:w-2/5'>
             <h2 className="font-bold mt-8 sm:mt-12  sm:mt-0 text-[30px] md:text-[48px] leading-[1.5]">Contact Us</h2>
             <form onSubmit={handleform}>
-            <div className="mt-4 sm:mt-12">
+            <div className="relative mt-4 sm:mt-12">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Name</label>
               <input type="text" name="s-name" value={sname} className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" onChange={(e)=>setSname(e.target.value)}/>
               {snameerror ? <div className="c-error">* Field required!</div>: ""}
             </div>
-            <div className="mt-4 sm:mt-8">
+            <div className="relative mt-4 sm:mt-8">
               <label  className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Email / Phone</label>
-              <input type="text" name="s-epvalue" className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none"/>
+              <input type="text" name="s-epvalue" value={sepvalue} className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" onChange={(e)=>setSepvalue(e.target.value)}/>
+              {sepvalueerror ? <div className="c-error">* Field required!</div>: ""}
             </div>
-            <div className="mt-4 sm:mt-8">
+            <div className="relative mt-4 sm:mt-8">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Message</label>
-              <textarea  name="s-message" onChange={(e) => setMessage(e.target.value)} value={message} className="w-full h-28 p-4 rounded-lg mt-2 bg-transparent focus:outline-none border dark:border-[#101010]" />
+              <textarea  name="s-message" onChange={(e) => setSmessage(e.target.value)} value={message} className="w-full h-28 p-4 rounded-lg mt-2 bg-transparent focus:outline-none border dark:border-[#101010]" />
+               {smessageerror ? <div className="c-error">* Field required!</div>: ""}
             </div>
             <button type="submit" className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white">
               Send Message
