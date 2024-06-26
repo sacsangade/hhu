@@ -114,7 +114,7 @@ h3 {
   overflow:hidden;
   margin:auto;
   
-  animation: circle 6s linear infinite;
+  animation: circle 1.5s linear infinite;
 }
 
 @keyframes circle{
