@@ -77,11 +77,7 @@ function Home() {
     setMessage('Hi I am interested in volunteering for your organization"');
   }
    
- function formsubmit(formData: any) {
-    const name = formData.get("s-name");
-    const epvalue = formData.get("s-epvalue");
-    const message = formData.get("s-message");
-  }
+
   return (
     <div className="home bg-white text-black dark:bg-black dark:text-white">
       <section className="relative section1 flex items-center justify-center">
@@ -337,7 +333,7 @@ function Home() {
           </div>
           <div className='w-full lg:w-2/5'>
             <h2 className="font-bold mt-8 sm:mt-12  sm:mt-0 text-[30px] md:text-[48px] leading-[1.5]">Contact Us</h2>
-            <form action={formsubmit}>
+            <form>
             <div className="mt-4 sm:mt-12">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Name</label>
               <input type="text" name="s-name" className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none"/>
