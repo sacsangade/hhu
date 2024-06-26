@@ -51,6 +51,7 @@ const events = [
 ];
 
 function Home() {
+  const form = useRef();
   const [message, setMessage] = useState('');
   const [sname, setSname] = useState('');
    const [sepvalue, setSepvalue] = useState('');
@@ -90,7 +91,18 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   
   if(sname && sepvalue && smessage)
   {
-    
+    emailjs
+      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
+        publicKey: 'YOUR_PUBLIC_KEY',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   }
   else
   {
@@ -375,7 +387,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
           </div>
           <div className='w-full lg:w-2/5'>
             <h2 className="font-bold mt-8 sm:mt-12  sm:mt-0 text-[30px] md:text-[48px] leading-[1.5]">Contact Us</h2>
-            <form onSubmit={handleform}>
+            <form ref={form} onSubmit={handleform}>
             <div className="relative mt-4 sm:mt-12">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Name</label>
               <input type="text" name="s-name" value={sname} className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none" onChange={(e)=>setSname(e.target.value)}/>
