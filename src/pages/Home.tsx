@@ -56,6 +56,7 @@ function Home() {
   const [sname, setSname] = useState('');
    const [sepvalue, setSepvalue] = useState('');
    const [smessage, setSmessage] = useState('');
+   const [isloading, setIsloading] = useState(false);
  const [snameerror, setSnameerror] = useState(false);
   const [sepvalueerror, setSepvalueerror] = useState(false);
   const [smessageerror, setSmessageerror] = useState(false);
@@ -87,6 +88,7 @@ function Home() {
    
 const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   e.preventDefault();
+   setIsloading(true);
  const currentForm = form.current;
     if (currentForm == null) return;
   if(sname && sepvalue && smessage)
@@ -97,6 +99,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
       })
       .then(
         () => {
+          setIsloading(false);
           console.log('SUCCESS!');
         },
         (error) => {
@@ -106,6 +109,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   }
   else
   {
+    setIsloading(false);
     if(sname)
     {
        setSnameerror(false);
@@ -403,8 +407,8 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
               <textarea  name="s-message" value={smessage} onChange={(e) => setSmessage(e.target.value)}  className="w-full h-28 p-4 rounded-lg mt-2 bg-transparent focus:outline-none border dark:border-[#101010]" />
                {smessageerror ? <div className="c-error">* Field required!</div>: ""}
             </div>
-            <button type="submit" className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white">
-              Send Message
+            <button type="submit" className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white" {isloading? "" : "disbled"}>
+              {isloading? "Send Message": "noe"}
             </button>
               </form>
           </div>
