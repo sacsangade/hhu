@@ -410,7 +410,7 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
             </div>
             <button type="submit" className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white"  disabled={isloading}>
              Send Message
-            </button>  {isloading ? <div className="loader"><div className="circle"></div></div> : "" }
+            </button>  <div className="loader"><div className="circle"></div></div> 
               {formsuccess? <div className="success-box">Message send successfully.</div> : ""}
               </form>
           </div>
