@@ -92,8 +92,8 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   if(sname && sepvalue && smessage)
   {
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm('service_ws21xtl', 'template_mcvpuol', form.current, {
+        publicKey: '-Rm081AKzibsOHEEV',
       })
       .then(
         () => {
