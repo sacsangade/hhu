@@ -66,6 +66,13 @@ h3 {
     top: 30px;
     font-size: 24px;
 }
+.c-error
+{
+  position:absolute;
+  right:0px;
+  margin-top:12px;
+  color:red;
+}
 .menu-btn
 {
   width: 20px;
