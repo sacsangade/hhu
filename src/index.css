@@ -102,8 +102,8 @@ h3 {
 }
 
 .circle{
-  width:5px;
-  height:5px;
+  width:8px;
+  height:8px;
   background:#FFF;
   border-radius:50%;
   position:absolute;
@@ -120,13 +120,13 @@ h3 {
 @keyframes circle{
   0%{
     transform:rotate(0deg)
-              translate(-120px)
+              translate(-12px)
               rotate(0deg);
   
   }
   100%{
     transform:rotate(360deg)
-              translate(-120px)
+              translate(-12px)
               rotate(-360deg);
   }
 }
