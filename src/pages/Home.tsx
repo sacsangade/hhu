@@ -408,8 +408,8 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
                {smessageerror ? <div className="c-error">* Field required!</div>: ""}
             </div>
             <button type="submit" className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white"  disabled={isloading}>
-              {isloading ? "Loading": "Send Message"}
-            </button>
+             Send Message
+            </button> {isloading ? "Loading...": ""}
               </form>
           </div>
         </div>
