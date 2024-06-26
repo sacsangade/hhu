@@ -50,7 +50,7 @@ const events = [
 
 function Home() {
   const [message, setMessage] = useState('');
-
+ const [snameerror, setSnameerror] = useState(false);
   const pagination = {
     clickable: true,
     renderBullet: function (index: number, className: string) {
@@ -76,10 +76,9 @@ function Home() {
   const signup = () => {
     setMessage('Hi I am interested in volunteering for your organization"');
   }
-    const [snameerror, setSnameerror] = useState(false);
+   
  function formsubmit(formData) {
     const name = formData.get("s-name");
-     
     const epvalue = formData.get("s-epvalue");
     const message = formData.get("s-message");
   }
@@ -342,7 +341,7 @@ function Home() {
             <div className="mt-4 sm:mt-12">
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Name</label>
               <input type="text" name="s-name" className="w-full h-10 px-4 rounded-lg mt-2 bg-transparent border dark:border-[#101010] focus:outline-none"/>
-              {snameerror?"":"<div class='custom-error'>Field required !</div>"}
+              {snameerror ? "" : "<div class='custom-error'>Field required !</div>" }
             </div>
             <div className="mt-4 sm:mt-8">
               <label  className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Email / Phone</label>
@@ -352,7 +351,7 @@ function Home() {
               <label className="text-base sm:text-[20px] leading-[1.5] font-['Roboto-thin'] dark:text-[#909090]">Message</label>
               <textarea  name="s-message" onChange={(e) => setMessage(e.target.value)} value={message} className="w-full h-28 p-4 rounded-lg mt-2 bg-transparent focus:outline-none border dark:border-[#101010]" />
             </div>
-            <button className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white">
+            <button type="submit" className="h-[38px] sm:h-14 px-4 sm:px-8 py-2 sm:py-4 mt-8 text3 sm:text2 text-black rounded-[5px] sm:rounded-md bg-[#E2E2E2] dark:bg-white">
               Send Message
             </button>
               </form>
