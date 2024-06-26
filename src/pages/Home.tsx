@@ -80,7 +80,7 @@ function Home() {
    
 const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   e.preventDefault();
-  if()
+  if(sname)
   {
     
   }
