@@ -89,7 +89,18 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
   e.preventDefault();
   if(sname && sepvalue && smessage)
   {
-    
+      emailjs
+      .sendForm('service_ws21xtl', 'template_mcvpuol', formhome.current, {
+        publicKey: '-Rm081AKzibsOHEEV',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   }
   else
   {
