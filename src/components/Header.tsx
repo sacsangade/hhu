@@ -51,7 +51,7 @@ const [menustate, setMenustate] = useState(false);
         <a onClick={handleMenuClose} href='/#contact' className="text2 cursor-pointer">Contact</a>
       </div>
       <div className="flex-1 md:flex-auto flex items-center justify-end gap-2 xl:gap-8">
-        <a href="https://buy.stripe.com/test_14kfZY1irclPbaofYY" className="inline-block h-[38px] sm:h-14 px-4 sm:px-6 text3 sm:text2 rounded-[5px] sm:rounded-xl text-white dark:text-black bg-black dark:bg-white">
+        <a href="https://buy.stripe.com/test_14kfZY1irclPbaofYY" className="flex items-center h-[38px] sm:h-14 px-4 sm:px-6 text3 sm:text2 rounded-[5px] sm:rounded-xl text-white dark:text-black bg-black dark:bg-white">
           Donation
         </a>
         <button onClick={changeTheme} className="h-[38px] flex sm:block items-center sm:h-14 w-[38px] sm:w-auto p-[5px] sm:px-4 rounded-[5px] sm:rounded-xl font-medium bg-black dark:bg-white stroke-white dark:stroke-black">
