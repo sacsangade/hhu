@@ -94,6 +94,9 @@ const handleform = (e: React.FormEvent<HTMLFormElement>) =>{
     if (currentForm == null) return;
   if(sname && sepvalue && smessage)
   {
+    setSnameerror(false);
+    setSepvalueerror(false);
+    setSmessageerror(false);
     emailjs
       .sendForm('service_ws21xtl', 'template_mcvpuol', currentForm, {
         publicKey: '-Rm081AKzibsOHEEV',
