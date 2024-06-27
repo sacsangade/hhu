@@ -51,9 +51,9 @@ const [menustate, setMenustate] = useState(false);
         <a onClick={handleMenuClose} href='/#contact' className="text2 cursor-pointer">Contact</a>
       </div>
       <div className="flex-1 md:flex-auto flex items-center justify-end gap-2 xl:gap-8">
-        <button onClick={handleCheckout} className="h-[38px] sm:h-14 px-4 sm:px-6 text3 sm:text2 rounded-[5px] sm:rounded-xl text-white dark:text-black bg-black dark:bg-white">
+        <a href="https://buy.stripe.com/test_14kfZY1irclPbaofYY" className="inline-block h-[38px] sm:h-14 px-4 sm:px-6 text3 sm:text2 rounded-[5px] sm:rounded-xl text-white dark:text-black bg-black dark:bg-white">
           Donation
-        </button>
+        </a>
         <button onClick={changeTheme} className="h-[38px] flex sm:block items-center sm:h-14 w-[38px] sm:w-auto p-[5px] sm:px-4 rounded-[5px] sm:rounded-xl font-medium bg-black dark:bg-white stroke-white dark:stroke-black">
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8.57141 15.9999C8.57141 20.1026 11.8973 23.4284 16 23.4284V8.57129C11.8973 8.57129 8.57141 11.8972 8.57141 15.9999Z" strokeLinecap="round" strokeLinejoin="round"/>
